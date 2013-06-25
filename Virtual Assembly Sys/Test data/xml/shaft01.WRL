@@ -1,0 +1,4693 @@
+#VRML V2.0 utf8
+
+# Produced by 3D Studio MAX VRML97 exporter, Version 2, Beta 1
+# Date: Sun Apr 09 13:37:42 2000
+
+DEF AXLE001 Transform{
+	translation  -1785.0 -700.0 -1200.0
+#	rotation   0 1 0  -1.57
+                 center 0 0 -135.0  
+children[
+# shaft01
+DEF face4 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6   #这个面片是轴的小头那边的斜面
+          
+          shininess 0.5
+          transparency 0
+        }
+      }#end of appearance
+      geometry DEF face4-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face4-COORD Coordinate { point [
+          19.08 6 -2, 19.07 6.034 -2, 17.92 8.874 -2, 16.36 11.51 -2, 
+          14.41 13.87 -2, 12.12 15.91 -2, 9.554 17.57 -2, 6.76 18.82 -2, 
+          3.808 19.63 -2, 0.7661 19.99 -2, -2.294 19.87 -2, -5.3 19.29 -2, 
+          -8.181 18.25 -2, -10.87 16.79 -2, -13.31 14.93 -2, 
+          -15.43 12.72 -2, -17.19 10.22 -2, -18.55 7.476 -2, 
+          -19.47 4.557 -2, -19.94 1.531 -2, -19.94 -1.531 -2, 
+          -19.47 -4.557 -2, -18.55 -7.476 -2, -17.19 -10.22 -2, 
+          -15.43 -12.72 -2, -13.31 -14.93 -2, -10.87 -16.79 -2, 
+          -8.181 -18.25 -2, -5.3 -19.29 -2, -2.294 -19.87 -2, 
+          0.7661 -19.99 -2, 3.808 -19.63 -2, 6.76 -18.82 -2, 
+          9.554 -17.57 -2, 12.12 -15.91 -2, 14.41 -13.87 -2, 
+          16.36 -11.51 -2, 17.92 -8.874 -2, 19.07 -6.034 -2, 
+          19.08 -6 -2, 18.97 -6 -1.897, 16.97 -6 0, 16.13 -7.987 0, 
+          14.72 -10.36 0, 12.97 -12.48 0, 10.91 -14.32 0, 8.599 -15.81 0, 
+          6.084 -16.94 0, 3.427 -17.67 0, 0.6894 -17.99 0, -2.064 -17.88 0, 
+          -4.77 -17.36 0, -7.363 -16.43 0, -9.784 -15.11 0, -11.98 -13.44 0, 
+          -13.89 -11.45 0, -15.47 -9.198 0, -16.7 -6.729 0, -17.53 -4.101 0, 
+          -17.95 -1.378 0, -17.95 1.378 0, -17.53 4.101 0, -16.7 6.729 0, 
+          -15.47 9.198 0, -13.89 11.45 0, -11.98 13.44 0, -9.784 15.11 0, 
+          -7.363 16.43 0, -4.77 17.36 0, -2.064 17.88 0, 0.6894 17.99 0, 
+          3.427 17.67 0, 6.084 16.94 0, 8.599 15.81 0, 10.91 14.32 0, 
+          12.97 12.48 0, 14.72 10.36 0, 16.13 7.987 0, 16.97 6 0, 
+          18.97 6 -1.897, 19.08 6 -2]
+        }
+        coordIndex [
+          38, 39, 40, -1, 40, 41, 42, -1, 42, 37, 38, -1, 38, 40, 42, -1, 
+          37, 42, 43, -1, 43, 36, 37, -1, 36, 43, 44, -1, 44, 35, 36, -1, 
+          35, 44, 45, -1, 45, 34, 35, -1, 34, 45, 46, -1, 46, 33, 34, -1, 
+          33, 46, 47, -1, 47, 32, 33, -1, 32, 47, 48, -1, 48, 31, 32, -1, 
+          31, 48, 49, -1, 49, 30, 31, -1, 30, 49, 50, -1, 50, 29, 30, -1, 
+          29, 50, 51, -1, 51, 28, 29, -1, 28, 51, 52, -1, 52, 27, 28, -1, 
+          27, 52, 53, -1, 53, 26, 27, -1, 26, 53, 54, -1, 54, 25, 26, -1, 
+          25, 54, 55, -1, 55, 24, 25, -1, 24, 55, 56, -1, 56, 23, 24, -1, 
+          23, 56, 57, -1, 57, 22, 23, -1, 22, 57, 58, -1, 58, 21, 22, -1, 
+          21, 58, 59, -1, 59, 20, 21, -1, 20, 59, 60, -1, 60, 19, 20, -1, 
+          19, 60, 61, -1, 61, 18, 19, -1, 18, 61, 62, -1, 62, 17, 18, -1, 
+          17, 62, 63, -1, 63, 16, 17, -1, 16, 63, 64, -1, 64, 15, 16, -1, 
+          15, 64, 65, -1, 65, 14, 15, -1, 14, 65, 66, -1, 66, 13, 14, -1, 
+          13, 66, 67, -1, 67, 12, 13, -1, 12, 67, 68, -1, 68, 11, 12, -1, 
+          11, 68, 69, -1, 69, 10, 11, -1, 10, 69, 70, -1, 70, 9, 10, -1, 
+          9, 70, 71, -1, 71, 8, 9, -1, 8, 71, 72, -1, 72, 7, 8, -1, 
+          7, 72, 73, -1, 73, 6, 7, -1, 6, 73, 74, -1, 74, 5, 6, -1, 
+          5, 74, 75, -1, 75, 4, 5, -1, 4, 75, 76, -1, 76, 3, 4, -1, 
+          3, 76, 77, -1, 77, 2, 3, -1, 77, 78, 79, -1, 79, 1, 2, -1, 
+          2, 77, 79, -1, 0, 1, 79, -1]
+        }
+    }
+  ]
+}
+# shaft01
+DEF face8 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6   #轴小头部分的平面
+          shininess 0.5
+          ambientIntensity 1
+          transparency 0
+        }
+      }
+      geometry DEF face8-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face8-COORD Coordinate { point [
+          16.97 6 0, 16.13 7.987 0, 14.72 10.36 0, 12.97 12.48 0, 
+          10.91 14.32 0, 8.599 15.81 0, 6.084 16.94 0, 3.427 17.67 0, 
+          0.6894 17.99 0, -2.064 17.88 0, -4.77 17.36 0, -7.363 16.43 0, 
+          -9.784 15.11 0, -11.98 13.44 0, -13.89 11.45 0, -15.47 9.198 0, 
+          -16.7 6.729 0, -17.53 4.101 0, -17.95 1.378 0, -17.95 -1.378 0, 
+          -17.53 -4.101 0, -16.7 -6.729 0, -15.47 -9.198 0, -13.89 -11.45 0, 
+          -11.98 -13.44 0, -9.784 -15.11 0, -7.363 -16.43 0, 
+          -4.77 -17.36 0, -2.064 -17.88 0, 0.6894 -17.99 0, 3.427 -17.67 0, 
+          6.084 -16.94 0, 8.599 -15.81 0, 10.91 -14.32 0, 12.97 -12.48 0, 
+          14.72 -10.36 0, 16.13 -7.987 0, 16.97 -6 0, 16 -6 0, 
+          16 6 0]#这一个面的最后一个坐标和第一个不同,可能少一个.别的首尾坐标相同的.
+        }
+        coordIndex [
+          17, 38, 16, -1, 16, 38, 15, -1, 15, 38, 14, -1, 14, 38, 13, -1, 
+          13, 38, 39, -1, 13, 39, 0, -1, 13, 0, 12, -1, 12, 0, 1, -1, 
+          12, 1, 11, -1, 11, 1, 2, -1, 11, 2, 10, -1, 10, 2, 3, -1, 
+          10, 3, 9, -1, 9, 3, 4, -1, 9, 4, 8, -1, 8, 4, 5, -1, 
+          8, 5, 7, -1, 7, 5, 6, -1, 26, 27, 28, -1, 26, 28, 25, -1, 
+          25, 28, 29, -1, 25, 29, 24, -1, 24, 29, 30, -1, 24, 30, 23, -1, 
+          23, 30, 31, -1, 23, 31, 22, -1, 22, 31, 32, -1, 22, 32, 21, -1, 
+          21, 32, 33, -1, 21, 33, 20, -1, 20, 33, 34, -1, 20, 34, 19, -1, 
+          19, 34, 35, -1, 19, 35, 18, -1, 18, 35, 36, -1, 18, 36, 17, -1, 
+          17, 36, 38, -1, 38, 36, 37, -1]
+        }
+    }
+  ]
+}
+# shaft01
+DEF face0 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  #从小头起第一个圆柱面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face0-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face0-COORD Coordinate { point [
+          20 0 -70, 19.77 3.053 -70, 19.07 6.034 -70, 17.92 8.874 -70, 
+          16.36 11.51 -70, 14.41 13.87 -70, 12.12 15.91 -70, 
+          9.554 17.57 -70, 6.76 18.82 -70, 3.808 19.63 -70, 0.7661 19.99 -70, 
+          -2.294 19.87 -70, -5.3 19.29 -70, -8.181 18.25 -70, 
+          -10.87 16.79 -70, -13.31 14.93 -70, -15.43 12.72 -70, 
+          -17.19 10.22 -70, -18.55 7.476 -70, -19.47 4.557 -70, 
+          -19.94 1.531 -70, -19.94 -1.531 -70, -19.47 -4.557 -70, 
+          -18.55 -7.476 -70, -17.19 -10.22 -70, -15.43 -12.72 -70, 
+          -13.31 -14.93 -70, -10.87 -16.79 -70, -8.181 -18.25 -70, 
+          -5.3 -19.29 -70, -2.294 -19.87 -70, 0.7661 -19.99 -70, 
+          3.808 -19.63 -70, 6.76 -18.82 -70, 9.554 -17.57 -70, 
+          12.12 -15.91 -70, 14.41 -13.87 -70, 16.36 -11.51 -70, 
+          17.92 -8.874 -70, 19.07 -6.034 -70, 19.77 -3.053 -70, 
+          20 0 -70, 19.99 -0.7168 -69.96, 19.94 -1.552 -69.8, 
+          19.86 -2.384 -69.51, 19.76 -3.053 -69.15, 19.74 -3.212 -69.07, 
+          19.59 -4.035 -68.44, 19.46 -4.618 -67.83, 19.31 -5.197 -67, 
+          19.22 -5.542 -66.3, 19.11 -5.886 -65.16, 19.08 -6 -64, 
+          19.08 -6 -2, 19.07 -6.034 -2, 17.92 -8.874 -2, 16.36 -11.51 -2, 
+          14.41 -13.87 -2, 12.12 -15.91 -2, 9.554 -17.57 -2, 
+          6.76 -18.82 -2, 3.808 -19.63 -2, 0.7661 -19.99 -2, 
+          -2.294 -19.87 -2, -5.3 -19.29 -2, -8.181 -18.25 -2, 
+          -10.87 -16.79 -2, -13.31 -14.93 -2, -15.43 -12.72 -2, 
+          -17.19 -10.22 -2, -18.55 -7.476 -2, -19.47 -4.557 -2, 
+          -19.94 -1.531 -2, -19.94 1.531 -2, -19.47 4.557 -2, 
+          -18.55 7.476 -2, -17.19 10.22 -2, -15.43 12.72 -2, 
+          -13.31 14.93 -2, -10.87 16.79 -2, -8.181 18.25 -2, 
+          -5.3 19.29 -2, -2.294 19.87 -2, 0.7661 19.99 -2, 3.808 19.63 -2, 
+          6.76 18.82 -2, 9.554 17.57 -2, 12.12 15.91 -2, 14.41 13.87 -2, 
+          16.36 11.51 -2, 17.92 8.874 -2, 19.07 6.034 -2, 19.08 6 -2, 
+          19.08 6 -64, 19.11 5.886 -65.16, 19.15 5.772 -65.64, 
+          19.25 5.427 -66.56, 19.34 5.082 -67.19, 19.49 4.502 -67.97, 
+          19.61 3.918 -68.54, 19.72 3.33 -68.99, 19.76 3.052 -69.15, 
+          19.84 2.503 -69.45, 19.93 1.671 -69.76, 19.98 0.8362 -69.94, 
+          20 0 -70]
+        }
+        coordIndex [
+          101, 102, 1, -1, 1, 102, 103, -1, 103, 104, 1, -1, 1, 104, 0, -1, 
+          93, 2, 91, -1, 91, 92, 93, -1, 93, 94, 2, -1, 94, 95, 2, -1, 
+          95, 96, 2, -1, 96, 97, 2, -1, 2, 97, 1, -1, 97, 98, 1, -1, 
+          98, 99, 1, -1, 1, 99, 100, -1, 1, 100, 101, -1, 3, 90, 91, -1, 
+          91, 2, 3, -1, 4, 89, 90, -1, 90, 3, 4, -1, 5, 88, 89, -1, 
+          89, 4, 5, -1, 6, 87, 88, -1, 88, 5, 6, -1, 7, 86, 87, -1, 
+          87, 6, 7, -1, 8, 85, 86, -1, 86, 7, 8, -1, 9, 84, 85, -1, 
+          85, 8, 9, -1, 10, 83, 84, -1, 84, 9, 10, -1, 11, 82, 83, -1, 
+          83, 10, 11, -1, 12, 81, 82, -1, 82, 11, 12, -1, 13, 80, 81, -1, 
+          81, 12, 13, -1, 14, 79, 80, -1, 80, 13, 14, -1, 15, 78, 79, -1, 
+          79, 14, 15, -1, 16, 77, 78, -1, 78, 15, 16, -1, 17, 76, 77, -1, 
+          77, 16, 17, -1, 18, 75, 76, -1, 76, 17, 18, -1, 19, 74, 75, -1, 
+          75, 18, 19, -1, 20, 73, 74, -1, 74, 19, 20, -1, 21, 72, 73, -1, 
+          73, 20, 21, -1, 22, 71, 72, -1, 72, 21, 22, -1, 23, 70, 71, -1, 
+          71, 22, 23, -1, 24, 69, 70, -1, 70, 23, 24, -1, 25, 68, 69, -1, 
+          69, 24, 25, -1, 26, 67, 68, -1, 68, 25, 26, -1, 27, 66, 67, -1, 
+          67, 26, 27, -1, 28, 65, 66, -1, 66, 27, 28, -1, 29, 64, 65, -1, 
+          65, 28, 29, -1, 30, 63, 64, -1, 64, 29, 30, -1, 31, 62, 63, -1, 
+          63, 30, 31, -1, 32, 61, 62, -1, 62, 31, 32, -1, 33, 60, 61, -1, 
+          61, 32, 33, -1, 34, 59, 60, -1, 60, 33, 34, -1, 35, 58, 59, -1, 
+          59, 34, 35, -1, 36, 57, 58, -1, 58, 35, 36, -1, 37, 56, 57, -1, 
+          57, 36, 37, -1, 38, 55, 56, -1, 56, 37, 38, -1, 39, 54, 55, -1, 
+          55, 38, 39, -1, 46, 39, 40, -1, 40, 45, 46, -1, 46, 47, 39, -1, 
+          47, 48, 39, -1, 48, 49, 39, -1, 49, 50, 39, -1, 50, 51, 39, -1, 
+          51, 52, 39, -1, 39, 52, 54, -1, 54, 52, 53, -1, 41, 42, 40, -1, 
+          42, 43, 40, -1, 40, 43, 44, -1, 40, 44, 45, -1]
+        }
+    }
+  ]
+}
+
+# key slot
+DEF face7 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor  0.8 0.2 0.2  #凹槽底面
+		 #0.5 0.8 0.6
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face7-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face7-COORD Coordinate { point [
+          16 6 0, 16 -6 0, 16 -6 -64, 16 -5.93 -64.92, 16 -5.72 -65.81, 
+          16 -5.377 -66.66, 16 -4.908 -67.45, 16 -4.323 -68.16, 
+          16 -3.637 -68.77, 16 -2.866 -69.27, 16 -2.028 -69.65, 
+          16 -1.142 -69.89, 16 -0.2298 -70, 16 0.6881 -69.96, 
+          16 1.59 -69.79, 16 2.454 -69.48, 16 3.261 -69.04, 16 3.992 -68.48, 
+          16 4.629 -67.82, 16 5.157 -67.07, 16 5.565 -66.24, 
+          16 5.842 -65.37, 16 5.982 -64.46, 16 6 -64]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1, 0, 3, 4, -1, 0, 4, 5, -1, 0, 5, 6, -1, 
+          0, 6, 7, -1, 0, 7, 8, -1, 0, 8, 9, -1, 0, 9, 10, -1, 
+          0, 10, 11, -1, 0, 11, 12, -1, 0, 12, 13, -1, 0, 13, 14, -1, 
+          0, 14, 15, -1, 0, 15, 16, -1, 0, 16, 17, -1, 0, 17, 18, -1, 
+          0, 18, 23, -1, 23, 18, 19, -1, 23, 19, 22, -1, 22, 19, 20, -1, 
+          22, 20, 21, -1]
+        }
+    }
+  ]
+}
+# key slot
+DEF face5 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  #小头面向外,凹槽的左侧面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face5-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face5-COORD Coordinate { point [
+          16 6 -64, 19.08 6 -64, 19.08 6 -2, 16.97 6 0, 16 6 0]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 4, -1, 4, 2, 3, -1]
+        }
+    }
+  ]
+}
+
+# key slot
+DEF face3 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  #小头面向外,凹槽的右侧面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face3-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face3-COORD Coordinate { point [
+          16 -6 0, 16.97 -6 0, 19.08 -6 -2, 19.08 -6 -64, 16 -6 -64]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 4, -1, 4, 2, 3, -1]
+        }
+    }
+  ]
+}
+
+# key slot
+DEF face2 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  #小头面向外,凹槽的正面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face2-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face2-COORD Coordinate { point [
+          16 -6 -64, 16 -5.93 -64.92, 16 -5.72 -65.81, 16 -5.377 -66.66, 
+          16 -4.908 -67.45, 16 -4.323 -68.16, 16 -3.637 -68.77, 
+          16 -2.866 -69.27, 16 -2.028 -69.65, 16 -1.142 -69.89, 
+          16 -0.2298 -70, 16 0.6881 -69.96, 16 1.59 -69.79, 16 2.454 -69.48, 
+          16 3.261 -69.04, 16 3.992 -68.48, 16 4.629 -67.82, 
+          16 5.157 -67.07, 16 5.565 -66.24, 16 5.842 -65.37, 
+          16 5.982 -64.46, 16 6 -64, 19.08 6 -64, 19.09 5.955 -64.46, 
+          19.11 5.886 -65.16, 19.13 5.837 -65.37, 19.15 5.772 -65.64, 
+          19.21 5.548 -66.24, 19.25 5.427 -66.56, 19.32 5.151 -67.06, 
+          19.34 5.082 -67.19, 19.46 4.619 -67.81, 19.49 4.502 -67.97, 
+          19.6 3.988 -68.48, 19.61 3.918 -68.54, 19.72 3.33 -68.99, 
+          19.73 3.258 -69.03, 19.84 2.503 -69.45, 19.85 2.453 -69.47, 
+          19.93 1.671 -69.76, 19.94 1.589 -69.78, 19.98 0.8362 -69.94, 
+          19.99 0.6874 -69.95, 20 0 -70, 20 -0.2293 -69.99, 19.99 -0.7168 -69.96, 
+          19.96 -1.139 -69.88, 19.94 -1.552 -69.8, 19.89 -2.023 -69.63, 
+          19.86 -2.384 -69.51, 19.79 -2.858 -69.26, 19.74 -3.212 -69.07, 
+          19.66 -3.624 -68.75, 19.59 -4.035 -68.44, 19.53 -4.312 -68.15, 
+          19.46 -4.618 -67.83, 19.39 -4.89 -67.44, 19.31 -5.197 -67, 
+          19.27 -5.366 -66.66, 19.22 -5.542 -66.3, 19.17 -5.693 -65.8, 
+          19.11 -5.886 -65.16, 19.11 -5.91 -64.91, 19.08 -6 -64, 
+          16 -6 -64]
+        }
+        coordIndex [
+          1, 63, 62, -1, 63, 1, 0, -1, 61, 2, 1, -1, 2, 61, 60, -1, 
+          1, 62, 61, -1, 59, 3, 2, -1, 3, 59, 58, -1, 2, 60, 59, -1, 
+          57, 4, 3, -1, 4, 57, 56, -1, 3, 58, 57, -1, 55, 5, 4, -1, 
+          5, 55, 54, -1, 4, 56, 55, -1, 54, 6, 5, -1, 6, 53, 52, -1, 
+          53, 6, 54, -1, 52, 7, 6, -1, 7, 51, 50, -1, 51, 7, 52, -1, 
+          50, 8, 7, -1, 8, 49, 48, -1, 49, 8, 50, -1, 48, 9, 8, -1, 
+          9, 47, 46, -1, 47, 9, 48, -1, 46, 10, 9, -1, 10, 45, 44, -1, 
+          45, 10, 46, -1, 43, 10, 44, -1, 10, 42, 11, -1, 42, 10, 43, -1, 
+          41, 11, 42, -1, 11, 40, 12, -1, 40, 11, 41, -1, 39, 12, 40, -1, 
+          12, 38, 13, -1, 38, 12, 39, -1, 37, 13, 38, -1, 13, 36, 14, -1, 
+          36, 13, 37, -1, 35, 14, 36, -1, 14, 33, 15, -1, 34, 14, 35, -1, 
+          14, 34, 33, -1, 31, 15, 32, -1, 15, 31, 16, -1, 15, 33, 32, -1, 
+          29, 16, 30, -1, 16, 29, 17, -1, 16, 31, 30, -1, 27, 17, 28, -1, 
+          17, 27, 18, -1, 17, 29, 28, -1, 25, 18, 26, -1, 18, 25, 19, -1, 
+          18, 27, 26, -1, 23, 19, 24, -1, 19, 23, 20, -1, 19, 25, 24, -1, 
+          22, 20, 23, -1, 20, 22, 21, -1]
+        }
+    }
+  ]
+}
+
+
+
+
+# below from face 152 to face 
+DEF face152 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 1.0 0.5 1.0    #齿轮一个齿的左侧面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face152-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face152-COORD Coordinate { point [
+          2 32.83 -238.8, 2 37.95 -240.2, 2 29.35 -271.5, 2 25.42 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face151 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 1.0 1.0   #齿轮一个齿的上面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face151-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face151-COORD Coordinate { point [
+          3.431 29.22 -271.5, 2 29.35 -271.5, 2 37.95 -240.2, 5.012 37.67 -240.2, 
+          3.431 29.22 -271.5]
+        }
+        coordIndex [
+          1, 2, 3, -1, 3, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face150 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 1.0 1.0 0.5  #齿轮一个齿的右侧面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face150-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face150-COORD Coordinate { point [
+          2.708 25.35 -270.4, 3.431 29.22 -271.5, 5.012 37.67 -240.2, 
+          4.072 32.64 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face149 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #齿轮的底面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face149-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face149-COORD Coordinate { point [
+          4.072 32.64 -238.8, 8.003 31.91 -238.8, 6.64 24.62 -270.4, 
+          2.708 25.35 -270.4]
+        }
+        coordIndex [
+          0, 1, 3, -1, 3, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face148 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2   #逆时针第一个
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face148-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face148-COORD Coordinate { point [
+          8.003 31.91 -238.8, 8.944 36.93 -240.2, 7.363 28.48 -271.5, 
+          6.64 24.62 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face147 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.5 0.5 0.2#逆时针第一个
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face147-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face147-COORD Coordinate { point [
+          8.741 28.09 -271.5, 7.363 28.48 -271.5, 8.944 36.93 -240.2, 
+          11.47 36.23 -240.2, 11.85 36.11 -240.2, 9.712 30.59 -261.7, 
+          8.741 28.09 -271.5]
+        }
+        coordIndex [
+          3, 4, 5, -1, 2, 3, 5, -1, 1, 2, 5, -1, 5, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face146 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2#逆时针第一个
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face146-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face146-COORD Coordinate { point [
+          7.32 24.42 -270.4, 8.741 28.09 -271.5, 11.85 36.11 -240.2, 
+          10 31.34 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face145 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face145-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face145-COORD Coordinate { point [
+          10 31.34 -238.8, 13.73 29.89 -238.8, 11.05 22.98 -270.4, 
+          7.32 24.42 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face144 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2#逆时针第二个
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face144-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face144-COORD Coordinate { point [
+          13.73 29.89 -238.8, 15.58 34.66 -240.2, 12.47 26.64 -271.5, 
+          11.05 22.98 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face143 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2#逆时针第二个
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face143-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face143-COORD Coordinate { point [
+          13.75 26.01 -271.5, 13.05 26.36 -271.5, 12.47 26.64 -271.5, 
+          15.58 34.66 -240.2, 16.86 34.05 -240.2, 18.28 33.31 -240.2, 
+          13.75 26.01 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face142 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2#逆时针第二个
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face142-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face142-COORD Coordinate { point [
+          11.68 22.66 -270.4, 13.75 26.01 -271.5, 18.28 33.31 -240.2, 
+          15.59 28.97 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face141 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face141-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face141-COORD Coordinate { point [
+          15.59 28.97 -238.8, 18.99 26.86 -238.8, 15.08 20.56 -270.4, 
+          11.68 22.66 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face140 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #3
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face140-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face140-COORD Coordinate { point [
+          18.99 26.86 -238.8, 21.68 31.21 -240.2, 17.15 23.9 -271.5, 
+          15.08 20.56 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face139 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2   #3
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face139-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face139-COORD Coordinate { point [
+          18.3 23.04 -271.5, 17.15 23.9 -271.5, 19.97 28.45 -252, 
+          21.68 31.21 -240.2, 21.86 31.08 -240.2, 24.09 29.39 -240.2, 
+          18.3 23.04 -271.5]
+        }
+        coordIndex [
+          2, 4, 5, -1, 2, 5, 0, -1, 0, 1, 2, -1, 2, 3, 4, -1]
+        }
+    }
+  ]
+}
+DEF face138 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #3
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face138-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face138-COORD Coordinate { point [
+          15.65 20.13 -270.4, 18.3 23.04 -271.5, 24.09 29.39 -240.2, 
+          20.65 25.61 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face137 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face137-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face137-COORD Coordinate { point [
+          20.65 25.61 -238.8, 23.6 22.91 -238.8, 18.6 17.43 -270.4, 
+          15.65 20.13 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face136 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2 #4
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face136-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face136-COORD Coordinate { point [
+          23.6 22.91 -238.8, 27.05 26.69 -240.2, 21.25 20.34 -271.5, 
+          18.6 17.43 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face135 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2 #4  
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face135-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face135-COORD Coordinate { point [
+          22.22 19.28 -271.5, 21.74 19.81 -271.5, 21.25 20.34 -271.5, 
+          27.05 26.69 -240.2, 28.06 25.58 -240.2, 29.08 24.46 -240.2, 
+          22.22 19.28 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face134 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2 #4
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face134-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face134-COORD Coordinate { point [
+          19.08 16.91 -270.4, 22.22 19.28 -271.5, 29.08 24.46 -240.2, 
+          25 21.38 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face133 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor  0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face133-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face133-COORD Coordinate { point [
+          25 21.38 -238.8, 27.41 18.19 -238.8, 21.49 13.72 -270.4, 
+          19.08 16.91 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face132 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2   #5
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face132-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face132-COORD Coordinate { point [
+          27.41 18.19 -238.8, 31.49 21.27 -240.2, 24.63 16.09 -271.5, 
+          21.49 13.72 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face131 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2 #5
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face131-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face131-COORD Coordinate { point [
+          25.38 14.87 -271.5, 25.01 15.48 -271.5, 24.63 16.09 -271.5, 
+          31.49 21.27 -240.2, 32.29 19.98 -240.2, 33.08 18.7 -240.2, 
+          25.38 14.87 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face130 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #5
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face130-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face130-COORD Coordinate { point [
+          21.86 13.12 -270.4, 25.38 14.87 -271.5, 33.08 18.7 -240.2, 
+          28.5 16.42 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face129 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face129-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face129-COORD Coordinate { point [
+          28.5 16.42 -238.8, 30.28 12.84 -238.8, 23.64 9.536 -270.4, 
+          21.86 13.12 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face128 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2   #6
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face128-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face128-COORD Coordinate { point [
+          30.28 12.84 -238.8, 34.86 15.12 -240.2, 27.17 11.29 -271.5, 
+          23.64 9.536 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face127 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor  0.5 0.5 0.2  
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face127-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face127-COORD Coordinate { point [
+          27.68 9.953 -271.5, 27.17 11.29 -271.5, 34.86 15.12 -240.2, 
+          35.76 12.84 -240.2, 35.95 12.3 -240.2, 27.85 10 -270.9, 
+          27.68 9.953 -271.5]
+        }
+        coordIndex [
+          3, 4, 5, -1, 2, 3, 5, -1, 1, 2, 5, -1, 5, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face126 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #6
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face126-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face126-COORD Coordinate { point [
+          23.9 8.877 -270.4, 27.68 9.953 -271.5, 35.95 12.3 -240.2, 
+          31.03 10.91 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face125 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face125-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face125-COORD Coordinate { point [
+          31.03 10.91 -238.8, 32.13 7.058 -238.8, 24.99 5.029 -270.4, 
+          23.9 8.877 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face124 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face124-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face124-COORD Coordinate { point [
+          32.13 7.058 -238.8, 37.05 8.457 -240.2, 28.78 6.105 -271.5, 
+          24.99 5.029 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face123 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face123-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face123-COORD Coordinate { point [
+          29.04 4.696 -271.5, 28.88 5.601 -271.5, 28.78 6.105 -271.5, 
+          37.05 8.457 -240.2, 37.3 7.235 -240.2, 37.6 5.489 -240.2, 
+          29.04 4.696 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face122 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #7
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face122-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face122-COORD Coordinate { point [
+          25.12 4.334 -270.4, 29.04 4.696 -271.5, 37.6 5.489 -240.2, 
+          32.51 5.018 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face121 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face121-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face121-COORD Coordinate { point [
+          32.51 5.018 -238.8, 32.88 1.035 -238.8, 25.49 0.351 -270.4, 
+          25.12 4.334 -270.4]
+        }
+        coordIndex [
+          2, 3, 1, -1, 1, 3, 0, -1]
+        }
+    }
+  ]
+}
+DEF face120 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face120-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face120-COORD Coordinate { point [
+          32.88 1.035 -238.8, 37.97 1.506 -240.2, 29.41 0.7135 -271.5, 
+          25.49 0.351 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face119 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face119-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face119-COORD Coordinate { point [
+          29.41 -0.7196 -271.5, 29.41 0.7135 -271.5, 37.23 1.438 -242.9, 
+          37.97 1.506 -240.2, 37.97 1.456 -240.2, 37.97 -1.514 -240.2, 
+          29.41 -0.7196 -271.5]
+        }
+        coordIndex [
+          2, 4, 5, -1, 2, 5, 0, -1, 0, 1, 2, -1, 2, 3, 4, -1]
+        }
+    }
+  ]
+}
+DEF face118 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2#8
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face118-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face118-COORD Coordinate { point [
+          25.49 -0.3563 -270.4, 29.41 -0.7196 -271.5, 37.97 -1.514 -240.2, 
+          32.88 -1.041 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face117 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face117-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face117-COORD Coordinate { point [
+          32.88 -1.041 -238.8, 32.51 -5.024 -238.8, 25.12 -4.339 -270.4, 
+          25.49 -0.3563 -270.4]
+        }
+        coordIndex [
+          2, 3, 1, -1, 1, 3, 0, -1]
+        }
+    }
+  ]
+}
+DEF face116 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face116-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face116-COORD Coordinate { point [
+          32.51 -5.024 -238.8, 37.6 -5.497 -240.2, 29.04 -4.703 -271.5, 
+          25.12 -4.339 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face115 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #9
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face115-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face115-COORD Coordinate { point [
+          28.78 -6.111 -271.5, 28.91 -5.407 -271.5, 29.04 -4.703 -271.5, 
+          37.6 -5.497 -240.2, 37.32 -6.981 -240.2, 37.05 -8.465 -240.2, 
+          28.78 -6.111 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face114 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #9
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face114-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face114-COORD Coordinate { point [
+          24.99 -5.034 -270.4, 28.78 -6.111 -271.5, 37.05 -8.465 -240.2, 
+          32.13 -7.065 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face113 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face113-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face113-COORD Coordinate { point [
+          32.13 -7.065 -238.8, 31.03 -10.91 -238.8, 23.9 -8.882 -270.4, 
+          24.99 -5.034 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face112 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #10
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face112-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face112-COORD Coordinate { point [
+          31.03 -10.91 -238.8, 35.95 -12.31 -240.2, 27.68 -9.958 -271.5, 
+          23.9 -8.882 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face111 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face111-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face111-COORD Coordinate { point [
+          27.16 -11.29 -271.5, 27.42 -10.63 -271.5, 27.68 -9.958 -271.5, 
+          35.95 -12.31 -240.2, 35.4 -13.72 -240.2, 34.86 -15.13 -240.2, 
+          27.16 -11.29 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face110 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #10
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face110-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face110-COORD Coordinate { point [
+          23.64 -9.541 -270.4, 27.16 -11.29 -271.5, 34.86 -15.13 -240.2, 
+          30.28 -12.85 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face109 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face109-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face109-COORD Coordinate { point [
+          30.28 -12.85 -238.8, 28.5 -16.43 -238.8, 21.86 -13.12 -270.4, 
+          23.64 -9.541 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face108 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #11
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face108-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face108-COORD Coordinate { point [
+          28.5 -16.43 -238.8, 33.08 -18.71 -240.2, 25.38 -14.88 -271.5, 
+          21.86 -13.12 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face107 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face107-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face107-COORD Coordinate { point [
+          24.63 -16.09 -271.5, 24.69 -15.99 -271.5, 25.38 -14.88 -271.5, 
+          33.08 -18.71 -240.2, 31.9 -20.66 -240.2, 31.49 -21.28 -240.2, 
+          24.63 -16.09 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face106 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #11
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face106-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face106-COORD Coordinate { point [
+          21.49 -13.72 -270.4, 24.63 -16.09 -271.5, 31.49 -21.28 -240.2, 
+          27.41 -18.19 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face105 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face105-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face105-COORD Coordinate { point [
+          27.41 -18.19 -238.8, 24.99 -21.39 -238.8, 19.08 -16.91 -270.4, 
+          21.49 -13.72 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face104 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #12
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face104-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face104-COORD Coordinate { point [
+          24.99 -21.39 -238.8, 29.08 -24.47 -240.2, 22.21 -19.29 -271.5, 
+          19.08 -16.91 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face103 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face103-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face103-COORD Coordinate { point [
+          21.25 -20.34 -271.5, 21.96 -19.57 -271.5, 22.21 -19.29 -271.5, 
+          29.08 -24.47 -240.2, 28.37 -25.28 -240.2, 27.04 -26.7 -240.2, 
+          21.25 -20.34 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face102 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #12
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face102-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face102-COORD Coordinate { point [
+          18.6 -17.44 -270.4, 21.25 -20.34 -271.5, 27.04 -26.7 -240.2, 
+          23.6 -22.92 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face101 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face101-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face101-COORD Coordinate { point [
+          23.6 -22.92 -238.8, 20.64 -25.61 -238.8, 15.64 -20.13 -270.4, 
+          18.6 -17.44 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face100 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #13
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face100-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face100-COORD Coordinate { point [
+          20.64 -25.61 -238.8, 24.08 -29.39 -240.2, 18.29 -23.04 -271.5, 
+          15.64 -20.13 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face99 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face99-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face99-COORD Coordinate { point [
+          17.15 -23.9 -271.5, 17.72 -23.47 -271.5, 18.29 -23.04 -271.5, 
+          24.08 -29.39 -240.2, 22.88 -30.3 -240.2, 21.67 -31.21 -240.2, 
+          17.15 -23.9 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face98 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #13
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face98-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face98-COORD Coordinate { point [
+          15.08 -20.56 -270.4, 17.15 -23.9 -271.5, 21.67 -31.21 -240.2, 
+          18.98 -26.86 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face97 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face97-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face97-COORD Coordinate { point [
+          18.98 -26.86 -238.8, 15.58 -28.97 -238.8, 11.68 -22.66 -270.4, 
+          15.08 -20.56 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face96 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2   #14
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face96-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face96-COORD Coordinate { point [
+          15.58 -28.97 -238.8, 18.27 -33.32 -240.2, 13.75 -26.01 -271.5, 
+          11.68 -22.66 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face95 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face95-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face95-COORD Coordinate { point [
+          12.47 -26.65 -271.5, 13.11 -26.33 -271.5, 13.75 -26.01 -271.5, 
+          18.27 -33.32 -240.2, 16.92 -33.99 -240.2, 15.57 -34.66 -240.2, 
+          12.47 -26.65 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face94 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #14
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face94-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face94-COORD Coordinate { point [
+          11.04 -22.98 -270.4, 12.47 -26.65 -271.5, 15.57 -34.66 -240.2, 
+          13.72 -29.9 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face93 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face93-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face93-COORD Coordinate { point [
+          13.72 -29.9 -238.8, 9.994 -31.34 -238.8, 7.315 -24.42 -270.4, 
+          11.04 -22.98 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face92 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #15
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face92-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face92-COORD Coordinate { point [
+          9.994 -31.34 -238.8, 11.84 -36.11 -240.2, 8.735 -28.09 -271.5, 
+          7.315 -24.42 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face91 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face91-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face91-COORD Coordinate { point [
+          7.357 -28.48 -271.5, 8.046 -28.29 -271.5, 8.735 -28.09 -271.5, 
+          11.84 -36.11 -240.2, 10.39 -36.52 -240.2, 8.936 -36.93 -240.2, 
+          7.357 -28.48 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face90 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #15
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face90-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face90-COORD Coordinate { point [
+          6.634 -24.62 -270.4, 7.357 -28.48 -271.5, 8.936 -36.93 -240.2, 
+          7.997 -31.91 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face89 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face89-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face89-COORD Coordinate { point [
+          7.997 -31.91 -238.8, 4.065 -32.64 -238.8, 2.703 -25.35 -270.4, 
+          6.634 -24.62 -270.4]
+        }
+        coordIndex [
+          2, 3, 1, -1, 1, 3, 0, -1]
+        }
+    }
+  ]
+}
+DEF face88 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2   #16
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face88-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face88-COORD Coordinate { point [
+          4.065 -32.64 -238.8, 5.004 -37.67 -240.2, 3.425 -29.22 -271.5, 
+          2.703 -25.35 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face87 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face87-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face87-COORD Coordinate { point [
+          1.998 -29.35 -271.5, 2.252 -29.33 -271.5, 3.425 -29.22 -271.5, 
+          5.004 -37.67 -240.2, 2.909 -37.89 -240.2, 1.997 -37.95 -240.2, 
+          1.998 -29.35 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face86 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #16
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face86-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face86-COORD Coordinate { point [
+          1.998 -25.42 -270.4, 1.998 -29.35 -271.5, 1.997 -37.95 -240.2, 
+          1.998 -32.83 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face85 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face85-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face85-COORD Coordinate { point [
+          1.998 -32.83 -238.8, -2.002 -32.83 -238.8, -2.002 -25.42 -270.4, 
+          1.998 -25.42 -270.4]
+        }
+        coordIndex [
+          2, 3, 1, -1, 1, 3, 0, -1]
+        }
+    }
+  ]
+}
+DEF face84 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2   #17
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face84-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face84-COORD Coordinate { point [
+          -2.002 -32.83 -238.8, -2.003 -37.95 -240.2, -2.002 -29.35 -271.5, 
+          -2.002 -25.42 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face83 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.7
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face83-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face83-COORD Coordinate { point [
+          -3.429 -29.22 -271.5, -2.252 -29.33 -271.5, -2.002 -29.35 -271.5, 
+          -2.003 -37.95 -240.2, -2.909 -37.89 -240.2, -5.009 -37.67 -240.2, 
+          -3.429 -29.22 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face82 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #17
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face82-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face82-COORD Coordinate { point [
+          -2.706 -25.35 -270.4, -3.429 -29.22 -271.5, -5.009 -37.67 -240.2, 
+          -4.069 -32.64 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face81 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face81-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face81-COORD Coordinate { point [
+          -4.069 -32.64 -238.8, -8.001 -31.91 -238.8, -6.638 -24.62 -270.4, 
+          -2.706 -25.35 -270.4]
+        }
+        coordIndex [
+          2, 3, 1, -1, 1, 3, 0, -1]
+        }
+    }
+  ]
+}
+DEF face80 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #18
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face80-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face80-COORD Coordinate { point [
+          -8.001 -31.91 -238.8, -8.941 -36.93 -240.2, -7.361 -28.48 -271.5, 
+          -6.638 -24.62 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face79 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face79-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face79-COORD Coordinate { point [
+          -8.739 -28.09 -271.5, -8.05 -28.29 -271.5, -7.361 -28.48 -271.5, 
+          -8.941 -36.93 -240.2, -10.39 -36.52 -240.2, -11.85 -36.11 -240.2, 
+          -8.739 -28.09 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face78 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #18
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face78-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face78-COORD Coordinate { point [
+          -7.318 -24.42 -270.4, -8.739 -28.09 -271.5, -11.85 -36.11 -240.2, 
+          -9.998 -31.34 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face77 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face77-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face77-COORD Coordinate { point [
+          -9.998 -31.34 -238.8, -13.73 -29.89 -238.8, -11.05 -22.98 -270.4, 
+          -7.318 -24.42 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face76 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #19
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face76-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face76-COORD Coordinate { point [
+          -13.73 -29.89 -238.8, -15.58 -34.66 -240.2, -12.47 -26.64 -271.5, 
+          -11.05 -22.98 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face75 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face75-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face75-COORD Coordinate { point [
+          -13.75 -26.01 -271.5, -13.11 -26.33 -271.5, -12.47 -26.64 -271.5, 
+          -15.58 -34.66 -240.2, -16.93 -33.99 -240.2, -18.28 -33.32 -240.2, 
+          -13.75 -26.01 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face74 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #19
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face74-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face74-COORD Coordinate { point [
+          -11.68 -22.66 -270.4, -13.75 -26.01 -271.5, -18.28 -33.32 -240.2, 
+          -15.59 -28.97 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face73 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face73-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face73-COORD Coordinate { point [
+          -15.59 -28.97 -238.8, -18.99 -26.86 -238.8, -15.08 -20.56 -270.4, 
+          -11.68 -22.66 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face72 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #20
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face72-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face72-COORD Coordinate { point [
+          -18.99 -26.86 -238.8, -21.68 -31.21 -240.2, -17.15 -23.9 -271.5, 
+          -15.08 -20.56 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face71 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face71-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face71-COORD Coordinate { point [
+          -18.3 -23.04 -271.5, -17.72 -23.47 -271.5, -17.15 -23.9 -271.5, 
+          -21.68 -31.21 -240.2, -22.88 -30.3 -240.2, -24.09 -29.39 -240.2, 
+          -18.3 -23.04 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face70 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #20
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face70-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face70-COORD Coordinate { point [
+          -15.65 -20.13 -270.4, -18.3 -23.04 -271.5, -24.09 -29.39 -240.2, 
+          -20.64 -25.61 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face69 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face69-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face69-COORD Coordinate { point [
+          -20.64 -25.61 -238.8, -23.6 -22.92 -238.8, -18.6 -17.43 -270.4, 
+          -15.65 -20.13 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face68 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2#21
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face68-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face68-COORD Coordinate { point [
+          -23.6 -22.92 -238.8, -27.04 -26.69 -240.2, -21.25 -20.34 -271.5, 
+          -18.6 -17.43 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face67 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face67-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face67-COORD Coordinate { point [
+          -22.22 -19.28 -271.5, -21.96 -19.57 -271.5, -21.25 -20.34 -271.5, 
+          -27.04 -26.69 -240.2, -28.37 -25.28 -240.2, -29.08 -24.46 -240.2, 
+          -22.22 -19.28 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face66 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2#21
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face66-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face66-COORD Coordinate { point [
+          -19.08 -16.91 -270.4, -22.22 -19.28 -271.5, -29.08 -24.46 -240.2, 
+          -25 -21.38 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face65 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face65-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face65-COORD Coordinate { point [
+          -25 -21.38 -238.8, -27.41 -18.19 -238.8, -21.49 -13.72 -270.4, 
+          -19.08 -16.91 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face64 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #22
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face64-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face64-COORD Coordinate { point [
+          -27.41 -18.19 -238.8, -31.49 -21.27 -240.2, -24.63 -16.09 -271.5, 
+          -21.49 -13.72 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face63 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face63-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face63-COORD Coordinate { point [
+          -25.38 -14.87 -271.5, -24.69 -15.99 -271.5, -24.63 -16.09 -271.5, 
+          -31.49 -21.27 -240.2, -31.9 -20.66 -240.2, -33.08 -18.7 -240.2, 
+          -25.38 -14.87 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face62 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #22
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face62-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face62-COORD Coordinate { point [
+          -21.86 -13.12 -270.4, -25.38 -14.87 -271.5, -33.08 -18.7 -240.2, 
+          -28.5 -16.42 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face61 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face61-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face61-COORD Coordinate { point [
+          -28.5 -16.42 -238.8, -30.28 -12.84 -238.8, -23.64 -9.538 -270.4, 
+          -21.86 -13.12 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face60 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #23
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face60-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face60-COORD Coordinate { point [
+          -30.28 -12.84 -238.8, -34.86 -15.12 -240.2, -27.17 -11.29 -271.5, 
+          -23.64 -9.538 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face59 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face59-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face59-COORD Coordinate { point [
+          -27.68 -9.955 -271.5, -27.42 -10.62 -271.5, -27.17 -11.29 -271.5, 
+          -34.86 -15.12 -240.2, -35.41 -13.71 -240.2, -35.95 -12.31 -240.2, 
+          -27.68 -9.955 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face58 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #23
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face58-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face58-COORD Coordinate { point [
+          -23.9 -8.878 -270.4, -27.68 -9.955 -271.5, -35.95 -12.31 -240.2, 
+          -31.03 -10.91 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face57 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face57-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face57-COORD Coordinate { point [
+          -31.03 -10.91 -238.8, -32.13 -7.06 -238.8, -24.99 -5.031 -270.4, 
+          -23.9 -8.878 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face56 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #24
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face56-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face56-COORD Coordinate { point [
+          -32.13 -7.06 -238.8, -37.05 -8.46 -240.2, -28.78 -6.107 -271.5, 
+          -24.99 -5.031 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face55 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face55-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face55-COORD Coordinate { point [
+          -29.04 -4.698 -271.5, -28.91 -5.403 -271.5, -28.78 -6.107 -271.5, 
+          -37.05 -8.46 -240.2, -37.32 -6.976 -240.2, -37.6 -5.491 -240.2, 
+          -29.04 -4.698 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face54 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #24
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face54-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face54-COORD Coordinate { point [
+          -25.12 -4.336 -270.4, -29.04 -4.698 -271.5, -37.6 -5.491 -240.2, 
+          -32.51 -5.02 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face53 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face53-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face53-COORD Coordinate { point [
+          -32.51 -5.02 -238.8, -32.88 -1.037 -238.8, -25.49 -0.3528 -270.4, 
+          -25.12 -4.336 -270.4]
+        }
+        coordIndex [
+          0, 1, 3, -1, 3, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face52 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #25
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face52-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face52-COORD Coordinate { point [
+          -32.88 -1.037 -238.8, -37.97 -1.508 -240.2, -29.41 -0.7155 -271.5, 
+          -25.49 -0.3528 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face51 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face51-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face51-COORD Coordinate { point [
+          -29.41 0.7176 -271.5, -29.41 -0.7155 -271.5, -37.97 -1.508 -240.2, 
+          -37.97 1.456 -240.2, -37.97 1.511 -240.2, -37.15 1.436 -243.2, 
+          -29.41 0.7176 -271.5]
+        }
+        coordIndex [
+          3, 4, 5, -1, 2, 3, 5, -1, 1, 2, 5, -1, 5, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face50 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2    #25
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face50-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face50-COORD Coordinate { point [
+          -25.49 0.3545 -270.4, -29.41 0.7176 -271.5, -37.97 1.511 -240.2, 
+          -32.88 1.039 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face49 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face49-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face49-COORD Coordinate { point [
+          -32.88 1.039 -238.8, -32.51 5.022 -238.8, -25.12 4.337 -270.4, 
+          -25.49 0.3545 -270.4]
+        }
+        coordIndex [
+          0, 1, 3, -1, 3, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face48 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #26
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face48-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face48-COORD Coordinate { point [
+          -32.51 5.022 -238.8, -37.6 5.494 -240.2, -29.04 4.701 -271.5, 
+          -25.12 4.337 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face47 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face47-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face47-COORD Coordinate { point [
+          -28.78 6.109 -271.5, -28.88 5.601 -271.5, -29.04 4.701 -271.5, 
+          -37.6 5.494 -240.2, -37.3 7.235 -240.2, -37.05 8.462 -240.2, 
+          -28.78 6.109 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face46 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #26
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face46-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face46-COORD Coordinate { point [
+          -24.99 5.033 -270.4, -28.78 6.109 -271.5, -37.05 8.462 -240.2, 
+          -32.13 7.063 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face45 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face45-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face45-COORD Coordinate { point [
+          -32.13 7.063 -238.8, -31.03 10.91 -238.8, -23.9 8.88 -270.4, 
+          -24.99 5.033 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face44 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #27
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face44-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face44-COORD Coordinate { point [
+          -31.03 10.91 -238.8, -35.95 12.31 -240.2, -27.68 9.956 -271.5, 
+          -23.9 8.88 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face43 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face43-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face43-COORD Coordinate { point [
+          -27.16 11.29 -271.5, -27.68 9.956 -271.5, -27.93 10.03 -270.6, 
+          -35.95 12.31 -240.2, -35.76 12.84 -240.2, -34.86 15.13 -240.2, 
+          -27.16 11.29 -271.5]
+        }
+        coordIndex [
+          2, 4, 5, -1, 2, 5, 0, -1, 0, 1, 2, -1, 2, 3, 4, -1]
+        }
+    }
+  ]
+}
+DEF face42 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #27
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face42-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face42-COORD Coordinate { point [
+          -23.64 9.54 -270.4, -27.16 11.29 -271.5, -34.86 15.13 -240.2, 
+          -30.28 12.85 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face41 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face41-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face41-COORD Coordinate { point [
+          -30.28 12.85 -238.8, -28.5 16.43 -238.8, -21.86 13.12 -270.4, 
+          -23.64 9.54 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face40 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2   #28
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face40-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face40-COORD Coordinate { point [
+          -28.5 16.43 -238.8, -33.08 18.71 -240.2, -25.38 14.87 -271.5, 
+          -21.86 13.12 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face39 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face39-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face39-COORD Coordinate { point [
+          -24.63 16.09 -271.5, -25 15.48 -271.5, -25.38 14.87 -271.5, 
+          -33.08 18.71 -240.2, -32.28 19.99 -240.2, -31.49 21.27 -240.2, 
+          -24.63 16.09 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face38 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #28
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face38-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face38-COORD Coordinate { point [
+          -21.49 13.72 -270.4, -24.63 16.09 -271.5, -31.49 21.27 -240.2, 
+          -27.41 18.19 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face37 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face37-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face37-COORD Coordinate { point [
+          -27.41 18.19 -238.8, -25 21.38 -238.8, -19.08 16.91 -270.4, 
+          -21.49 13.72 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face36 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #29
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face36-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face36-COORD Coordinate { point [
+          -25 21.38 -238.8, -29.08 24.47 -240.2, -22.22 19.28 -271.5, 
+          -19.08 16.91 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face35 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face35-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face35-COORD Coordinate { point [
+          -21.25 20.34 -271.5, -21.73 19.81 -271.5, -22.22 19.28 -271.5, 
+          -29.08 24.47 -240.2, -28.06 25.58 -240.2, -27.04 26.7 -240.2, 
+          -21.25 20.34 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face34 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #29
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face34-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face34-COORD Coordinate { point [
+          -18.6 17.44 -270.4, -21.25 20.34 -271.5, -27.04 26.7 -240.2, 
+          -23.6 22.92 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face33 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face33-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face33-COORD Coordinate { point [
+          -23.6 22.92 -238.8, -20.64 25.61 -238.8, -15.64 20.13 -270.4, 
+          -18.6 17.44 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face32 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #30
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face32-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face32-COORD Coordinate { point [
+          -20.64 25.61 -238.8, -24.09 29.39 -240.2, -18.29 23.04 -271.5, 
+          -15.64 20.13 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face31 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face31-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face31-COORD Coordinate { point [
+          -17.15 23.9 -271.5, -18.29 23.04 -271.5, -24.09 29.39 -240.2, 
+          -21.86 31.08 -240.2, -21.68 31.21 -240.2, -19.93 28.38 -252.3, 
+          -17.15 23.9 -271.5]
+        }
+        coordIndex [
+          3, 4, 5, -1, 2, 3, 5, -1, 1, 2, 5, -1, 5, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face30 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #30
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face30-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face30-COORD Coordinate { point [
+          -15.08 20.56 -270.4, -17.15 23.9 -271.5, -21.68 31.21 -240.2, 
+          -18.98 26.86 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face29 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face29-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face29-COORD Coordinate { point [
+          -18.98 26.86 -238.8, -15.58 28.97 -238.8, -11.68 22.66 -270.4, 
+          -15.08 20.56 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face28 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2   #31
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face28-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face28-COORD Coordinate { point [
+          -15.58 28.97 -238.8, -18.28 33.32 -240.2, -13.75 26.01 -271.5, 
+          -11.68 22.66 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face27 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face27-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face27-COORD Coordinate { point [
+          -12.47 26.65 -271.5, -13.05 26.36 -271.5, -13.75 26.01 -271.5, 
+          -18.28 33.32 -240.2, -16.86 34.05 -240.2, -15.57 34.66 -240.2, 
+          -12.47 26.65 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face26 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #31
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face26-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face26-COORD Coordinate { point [
+          -11.05 22.98 -270.4, -12.47 26.65 -271.5, -15.57 34.66 -240.2, 
+          -13.73 29.89 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face25 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face25-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face25-COORD Coordinate { point [
+          -13.73 29.89 -238.8, -9.996 31.34 -238.8, -7.316 24.42 -270.4, 
+          -11.05 22.98 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face24 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #32
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face24-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face24-COORD Coordinate { point [
+          -9.996 31.34 -238.8, -11.84 36.11 -240.2, -8.737 28.09 -271.5, 
+          -7.316 24.42 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face23 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face23-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face23-COORD Coordinate { point [
+          -7.359 28.48 -271.5, -8.737 28.09 -271.5, -9.735 30.67 -261.4, 
+          -11.84 36.11 -240.2, -11.47 36.23 -240.2, -8.939 36.93 -240.2, 
+          -7.359 28.48 -271.5]
+        }
+        coordIndex [
+          2, 4, 5, -1, 2, 5, 0, -1, 0, 1, 2, -1, 2, 3, 4, -1]
+        }
+    }
+  ]
+}
+DEF face22 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #32
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face22-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face22-COORD Coordinate { point [
+          -6.636 24.62 -270.4, -7.359 28.48 -271.5, -8.939 36.93 -240.2, 
+          -7.999 31.91 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+DEF face21 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face21-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face21-COORD Coordinate { point [
+          -7.999 31.91 -238.8, -4.067 32.64 -238.8, -2.704 25.35 -270.4, 
+          -6.636 24.62 -270.4]
+        }
+        coordIndex [
+          0, 1, 3, -1, 3, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face20 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #33
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face20-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face20-COORD Coordinate { point [
+          -4.067 32.64 -238.8, -5.007 37.67 -240.2, -3.427 29.22 -271.5, 
+          -2.704 25.35 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 3, -1]
+        }
+    }
+  ]
+}
+DEF face19 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face19-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face19-COORD Coordinate { point [
+          -2 29.35 -271.5, -2.714 29.28 -271.5, -3.427 29.22 -271.5, 
+          -5.007 37.67 -240.2, -3.503 37.81 -240.2, -2 37.95 -240.2, 
+          -2 29.35 -271.5]
+        }
+        coordIndex [
+          1, 4, 5, -1, 5, 0, 1, -1, 2, 3, 4, -1, 4, 1, 2, -1]
+        }
+    }
+  ]
+}
+DEF face18 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 0.2  #33
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face18-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face18-COORD Coordinate { point [
+          -2 25.42 -270.4, -2 29.35 -271.5, -2 37.95 -240.2, -2 32.83 -238.8]
+        }
+        coordIndex [
+          3, 0, 2, -1, 2, 0, 1, -1]
+        }
+    }
+  ]
+}
+
+
+
+DEF face17 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.5 1.0
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face17-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face17-COORD Coordinate { point [
+          -2 32.83 -238.8, 0 32.84 -238.8, 2 32.83 -238.8, 2 25.42 -270.4, 
+          0 25.42 -270.4, -2 25.42 -270.4]
+        }
+        coordIndex [
+          0, 1, 2, -1, 0, 2, 5, -1, 5, 2, 4, -1, 4, 2, 3, -1]
+        }
+    }
+  ]
+}
+# before here all for gear feature
+
+
+DEF face154 Transform {
+ translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  #大头最中心的圆
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face154-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face154-COORD Coordinate { point [
+          0 18.48 -268.5, 2.821 18.26 -268.5, 5.575 17.62 -268.5, 
+          8.199 16.56 -268.5, 10.63 15.11 -268.5, 12.81 13.31 -268.5, 
+          14.69 11.2 -268.5, 16.23 8.827 -268.5, 17.39 6.246 -268.5, 
+          18.14 3.518 -268.5, 18.46 0.7077 -268.5, 18.36 -2.119 -268.5, 
+          17.82 -4.896 -268.5, 16.86 -7.558 -268.5, 15.51 -10.04 -268.5, 
+          13.79 -12.29 -268.5, 11.76 -14.25 -268.5, 9.442 -15.88 -268.5, 
+          6.907 -17.14 -268.5, 4.21 -17.99 -268.5, 1.414 -18.42 -268.5, 
+          -1.414 -18.42 -268.5, -4.21 -17.99 -268.5, -6.907 -17.14 -268.5, 
+          -9.442 -15.88 -268.5, -11.76 -14.25 -268.5, -13.79 -12.29 -268.5, 
+          -15.51 -10.04 -268.5, -16.86 -7.558 -268.5, -17.82 -4.896 -268.5, 
+          -18.36 -2.119 -268.5, -18.46 0.7077 -268.5, -18.14 3.518 -268.5, 
+          -17.39 6.246 -268.5, -16.23 8.827 -268.5, -14.69 11.2 -268.5, 
+          -12.81 13.31 -268.5, -10.63 15.11 -268.5, -8.199 16.56 -268.5, 
+          -5.575 17.62 -268.5, -2.821 18.26 -268.5]
+        }
+        coordIndex [
+          39, 40, 38, -1, 38, 40, 0, -1, 38, 0, 37, -1, 37, 0, 1, -1, 
+          37, 1, 36, -1, 36, 1, 2, -1, 36, 2, 35, -1, 35, 2, 3, -1, 
+          35, 3, 34, -1, 34, 3, 4, -1, 34, 4, 33, -1, 33, 4, 5, -1, 
+          33, 5, 32, -1, 32, 5, 6, -1, 32, 6, 31, -1, 31, 6, 7, -1, 
+          31, 7, 30, -1, 30, 7, 8, -1, 30, 8, 29, -1, 29, 8, 9, -1, 
+          29, 9, 28, -1, 28, 9, 10, -1, 28, 10, 27, -1, 27, 10, 11, -1, 
+          27, 11, 26, -1, 26, 11, 12, -1, 26, 12, 25, -1, 25, 12, 13, -1, 
+          25, 13, 24, -1, 24, 13, 14, -1, 24, 14, 23, -1, 23, 14, 15, -1, 
+          23, 15, 22, -1, 22, 15, 16, -1, 22, 16, 21, -1, 21, 16, 17, -1, 
+          21, 17, 20, -1, 20, 17, 18, -1, 20, 18, 19, -1]
+        }
+    }
+  ]
+}
+DEF face153 Transform {
+ translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6   #大头最外层的圆
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face153-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face153-COORD Coordinate { point [
+          0 18.48 -268.5, 2.821 18.26 -268.5, 5.575 17.62 -268.5, 
+          8.199 16.56 -268.5, 10.63 15.11 -268.5, 12.81 13.31 -268.5, 
+          14.69 11.2 -268.5, 16.23 8.827 -268.5, 17.39 6.246 -268.5, 
+          18.14 3.518 -268.5, 18.46 0.7077 -268.5, 18.36 -2.119 -268.5, 
+          17.82 -4.896 -268.5, 16.86 -7.558 -268.5, 15.51 -10.04 -268.5, 
+          13.79 -12.29 -268.5, 11.76 -14.25 -268.5, 9.442 -15.88 -268.5, 
+          6.907 -17.14 -268.5, 4.21 -17.99 -268.5, 1.414 -18.42 -268.5, 
+          -1.414 -18.42 -268.5, -4.21 -17.99 -268.5, -6.907 -17.14 -268.5, 
+          -9.442 -15.88 -268.5, -11.76 -14.25 -268.5, -13.79 -12.29 -268.5, 
+          -15.51 -10.04 -268.5, -16.86 -7.558 -268.5, -17.82 -4.896 -268.5, 
+          -18.36 -2.119 -268.5, -18.46 0.7077 -268.5, -18.14 3.518 -268.5, 
+          -17.39 6.246 -268.5, -16.23 8.827 -268.5, -14.69 11.2 -268.5, 
+          -12.81 13.31 -268.5, -10.63 15.11 -268.5, -8.199 16.56 -268.5, 
+          -5.575 17.62 -268.5, -2.821 18.26 -268.5, 0 18.48 -268.5, 
+          0 25.42 -270.4, -2 25.42 -270.4, -2 29.35 -271.5, -3.427 29.22 -271.5, 
+          -2.704 25.35 -270.4, -3.88 25.13 -270.4, -6.636 24.62 -270.4, 
+          -7.359 28.48 -271.5, -8.737 28.09 -271.5, -7.316 24.42 -270.4, 
+          -7.683 24.28 -270.4, -11.05 22.98 -270.4, -12.47 26.65 -271.5, 
+          -13.05 26.36 -271.5, -13.75 26.01 -271.5, -11.68 22.66 -270.4, 
+          -14.65 20.82 -270.4, -15.08 20.56 -270.4, -17.15 23.9 -271.5, 
+          -18.29 23.04 -271.5, -15.64 20.13 -270.4, -17.63 18.32 -270.4, 
+          -18.6 17.44 -270.4, -21.25 20.34 -271.5, -22.22 19.28 -271.5, 
+          -19.08 16.91 -270.4, -20.21 15.41 -270.4, -21.49 13.72 -270.4, 
+          -24.63 16.09 -271.5, -25.38 14.87 -271.5, -21.86 13.12 -270.4, 
+          -22.34 12.15 -270.4, -23.64 9.54 -270.4, -27.16 11.29 -271.5, 
+          -27.68 9.956 -271.5, -23.9 8.88 -270.4, -23.98 8.612 -270.4, 
+          -24.99 5.033 -270.4, -28.78 6.109 -271.5, -28.88 5.601 -271.5, 
+          -29.04 4.701 -271.5, -25.12 4.337 -270.4, -25.44 0.9735 -270.4, 
+          -25.49 0.3545 -270.4, -29.41 0.7176 -271.5, -29.41 -0.7155 -271.5, 
+          -25.49 -0.3528 -270.4, -25.26 -2.917 -270.4, -25.12 -4.336 -270.4, 
+          -29.04 -4.698 -271.5, -28.78 -6.107 -271.5, -24.99 -5.031 -270.4, 
+          -24.51 -6.735 -270.4, -23.9 -8.878 -270.4, -27.68 -9.955 -271.5, 
+          -27.17 -11.29 -271.5, -23.64 -9.538 -270.4, -23.21 -10.4 -270.4, 
+          -21.86 -13.12 -270.4, -25.38 -14.87 -271.5, -24.69 -15.99 -271.5, 
+          -24.63 -16.09 -271.5, -23.42 -15.18 -271.1, -21.49 -13.72 -270.4, 
+          -21.39 -13.85 -270.4, -19.08 -16.91 -270.4, -22.22 -19.28 -271.5, 
+          -21.96 -19.57 -271.5, -21.25 -20.34 -271.5, -18.6 -17.43 -270.4, 
+          -16.19 -19.63 -270.4, -15.65 -20.13 -270.4, -18.3 -23.04 -271.5, 
+          -17.15 -23.9 -271.5, -15.08 -20.56 -270.4, -12.99 -21.85 -270.4, 
+          -11.68 -22.66 -270.4, -13.75 -26.01 -271.5, -12.47 -26.64 -271.5, 
+          -11.05 -22.98 -270.4, -9.503 -23.58 -270.4, -7.318 -24.42 -270.4, 
+          -8.739 -28.09 -271.5, -7.361 -28.48 -271.5, -6.638 -24.62 -270.4, 
+          -5.799 -24.77 -270.4, -2.706 -25.35 -270.4, -3.429 -29.22 -271.5, 
+          -2.252 -29.33 -271.5, -2.002 -29.35 -271.5, -2.002 -26.16 -270.6, 
+          -2.002 -25.42 -270.4, -1.952 -25.42 -270.4, 1.952 -25.42 -270.4, 
+          1.998 -25.42 -270.4, 1.998 -26.1 -270.6, 1.998 -29.35 -271.5, 
+          2.252 -29.33 -271.5, 3.425 -29.22 -271.5, 2.703 -25.35 -270.4, 
+          5.799 -24.77 -270.4, 6.634 -24.62 -270.4, 7.357 -28.48 -271.5, 
+          8.735 -28.09 -271.5, 7.315 -24.42 -270.4, 9.503 -23.58 -270.4, 
+          11.04 -22.98 -270.4, 12.47 -26.65 -271.5, 13.75 -26.01 -271.5, 
+          11.68 -22.66 -270.4, 12.99 -21.85 -270.4, 15.08 -20.56 -270.4, 
+          17.15 -23.9 -271.5, 18.29 -23.04 -271.5, 15.64 -20.13 -270.4, 
+          16.19 -19.63 -270.4, 18.6 -17.44 -270.4, 21.25 -20.34 -271.5, 
+          21.96 -19.57 -271.5, 22.21 -19.29 -271.5, 19.08 -16.91 -270.4, 
+          21.39 -13.85 -270.4, 21.49 -13.72 -270.4, 23.38 -15.15 -271.1, 
+          24.63 -16.09 -271.5, 24.69 -15.99 -271.5, 25.38 -14.88 -271.5, 
+          21.86 -13.12 -270.4, 23.21 -10.4 -270.4, 23.64 -9.541 -270.4, 
+          27.16 -11.29 -271.5, 27.68 -9.958 -271.5, 23.9 -8.882 -270.4, 
+          24.51 -6.735 -270.4, 24.99 -5.034 -270.4, 28.78 -6.111 -271.5, 
+          29.04 -4.703 -271.5, 25.12 -4.339 -270.4, 25.26 -2.917 -270.4, 
+          25.49 -0.3563 -270.4, 29.41 -0.7196 -271.5, 29.41 0.7135 -271.5, 
+          25.49 0.351 -270.4, 25.44 0.9735 -270.4, 25.12 4.334 -270.4, 
+          29.04 4.696 -271.5, 28.88 5.601 -271.5, 28.78 6.105 -271.5, 
+          24.99 5.029 -270.4, 23.98 8.612 -270.4, 23.9 8.877 -270.4, 
+          27.68 9.953 -271.5, 27.17 11.29 -271.5, 23.64 9.536 -270.4, 
+          22.34 12.15 -270.4, 21.86 13.12 -270.4, 25.38 14.87 -271.5, 
+          24.63 16.09 -271.5, 21.49 13.72 -270.4, 20.21 15.41 -270.4, 
+          19.08 16.91 -270.4, 22.22 19.28 -271.5, 21.25 20.34 -271.5, 
+          18.6 17.43 -270.4, 17.63 18.32 -270.4, 15.65 20.13 -270.4, 
+          18.3 23.04 -271.5, 17.15 23.9 -271.5, 15.08 20.56 -270.4, 
+          14.65 20.82 -270.4, 11.68 22.66 -270.4, 13.75 26.01 -271.5, 
+          13.05 26.36 -271.5, 12.47 26.64 -271.5, 11.05 22.98 -270.4, 
+          7.683 24.28 -270.4, 7.32 24.42 -270.4, 8.741 28.09 -271.5, 
+          7.363 28.48 -271.5, 6.64 24.62 -270.4, 3.88 25.13 -270.4, 
+          2.708 25.35 -270.4, 3.431 29.22 -271.5, 2 29.35 -271.5, 
+          2 25.42 -270.4, 0 25.42 -270.4, 0 18.48 -268.5]
+        }
+        coordIndex [
+          223, 1, 226, -1, 1, 223, 222, -1, 226, 225, 223, -1, 
+          225, 224, 223, -1, 1, 0, 226, -1, 0, 227, 226, -1, 
+          218, 2, 221, -1, 2, 218, 217, -1, 221, 220, 218, -1, 
+          220, 219, 218, -1, 2, 1, 221, -1, 1, 222, 221, -1, 
+          215, 214, 216, -1, 214, 3, 216, -1, 3, 2, 216, -1, 
+          2, 217, 216, -1, 212, 4, 3, -1, 4, 212, 211, -1, 3, 214, 212, -1, 
+          214, 213, 212, -1, 207, 5, 210, -1, 5, 207, 206, -1, 
+          210, 209, 207, -1, 209, 208, 207, -1, 5, 4, 210, -1, 
+          4, 211, 210, -1, 202, 6, 205, -1, 6, 202, 201, -1, 
+          205, 204, 202, -1, 204, 203, 202, -1, 6, 5, 205, -1, 
+          5, 206, 205, -1, 197, 7, 200, -1, 7, 197, 196, -1, 
+          200, 199, 197, -1, 199, 198, 197, -1, 7, 6, 200, -1, 
+          6, 201, 200, -1, 192, 8, 195, -1, 8, 192, 191, -1, 
+          195, 194, 192, -1, 194, 193, 192, -1, 8, 7, 195, -1, 
+          7, 196, 195, -1, 189, 188, 190, -1, 188, 9, 190, -1, 
+          9, 8, 190, -1, 8, 191, 190, -1, 186, 10, 9, -1, 10, 186, 185, -1, 
+          9, 188, 186, -1, 188, 187, 186, -1, 181, 11, 184, -1, 
+          11, 181, 180, -1, 184, 183, 181, -1, 183, 182, 181, -1, 
+          11, 10, 184, -1, 10, 185, 184, -1, 176, 12, 179, -1, 
+          12, 176, 175, -1, 179, 178, 176, -1, 178, 177, 176, -1, 
+          12, 11, 179, -1, 11, 180, 179, -1, 171, 13, 174, -1, 
+          13, 171, 170, -1, 174, 173, 171, -1, 173, 172, 171, -1, 
+          13, 12, 174, -1, 12, 175, 174, -1, 164, 14, 169, -1, 
+          14, 164, 163, -1, 169, 168, 164, -1, 168, 167, 164, -1, 
+          167, 165, 164, -1, 14, 13, 169, -1, 13, 170, 169, -1, 
+          161, 160, 162, -1, 160, 15, 162, -1, 15, 14, 162, -1, 
+          14, 163, 162, -1, 165, 167, 166, -1, 158, 16, 15, -1, 
+          16, 158, 157, -1, 15, 160, 158, -1, 160, 159, 158, -1, 
+          153, 17, 156, -1, 17, 153, 152, -1, 156, 155, 153, -1, 
+          155, 154, 153, -1, 17, 16, 156, -1, 16, 157, 156, -1, 
+          148, 18, 151, -1, 18, 148, 147, -1, 151, 150, 148, -1, 
+          150, 149, 148, -1, 18, 17, 151, -1, 17, 152, 151, -1, 
+          143, 19, 146, -1, 19, 143, 142, -1, 146, 145, 143, -1, 
+          145, 144, 143, -1, 19, 18, 146, -1, 18, 147, 146, -1, 
+          136, 20, 141, -1, 20, 136, 135, -1, 141, 140, 136, -1, 
+          140, 139, 136, -1, 139, 137, 136, -1, 20, 19, 141, -1, 
+          19, 142, 141, -1, 21, 135, 134, -1, 135, 21, 20, -1, 
+          137, 139, 138, -1, 130, 132, 131, -1, 128, 22, 133, -1, 
+          22, 128, 127, -1, 133, 132, 128, -1, 132, 130, 128, -1, 
+          130, 129, 128, -1, 22, 21, 133, -1, 21, 134, 133, -1, 
+          123, 23, 126, -1, 23, 123, 122, -1, 126, 125, 123, -1, 
+          125, 124, 123, -1, 23, 22, 126, -1, 22, 127, 126, -1, 
+          118, 24, 121, -1, 24, 118, 117, -1, 121, 120, 118, -1, 
+          120, 119, 118, -1, 24, 23, 121, -1, 23, 122, 121, -1, 
+          113, 25, 116, -1, 25, 113, 112, -1, 116, 115, 113, -1, 
+          115, 114, 113, -1, 25, 24, 116, -1, 24, 117, 116, -1, 
+          111, 109, 26, -1, 109, 111, 110, -1, 26, 25, 111, -1, 
+          25, 112, 111, -1, 107, 27, 26, -1, 27, 107, 106, -1, 
+          26, 109, 107, -1, 109, 108, 107, -1, 102, 104, 103, -1, 
+          100, 28, 105, -1, 28, 100, 99, -1, 105, 104, 100, -1, 
+          104, 102, 100, -1, 102, 101, 100, -1, 28, 27, 105, -1, 
+          27, 106, 105, -1, 95, 29, 98, -1, 29, 95, 94, -1, 98, 97, 95, -1, 
+          97, 96, 95, -1, 29, 28, 98, -1, 28, 99, 98, -1, 90, 30, 93, -1, 
+          30, 90, 89, -1, 93, 92, 90, -1, 92, 91, 90, -1, 30, 29, 93, -1, 
+          29, 94, 93, -1, 85, 31, 88, -1, 31, 85, 84, -1, 88, 87, 85, -1, 
+          87, 86, 85, -1, 31, 30, 88, -1, 30, 89, 88, -1, 83, 81, 32, -1, 
+          81, 83, 82, -1, 32, 31, 83, -1, 31, 84, 83, -1, 79, 33, 32, -1, 
+          33, 79, 78, -1, 32, 81, 79, -1, 81, 80, 79, -1, 74, 34, 77, -1, 
+          34, 74, 73, -1, 77, 76, 74, -1, 76, 75, 74, -1, 34, 33, 77, -1, 
+          33, 78, 77, -1, 69, 35, 72, -1, 35, 69, 68, -1, 72, 71, 69, -1, 
+          71, 70, 69, -1, 35, 34, 72, -1, 34, 73, 72, -1, 64, 36, 67, -1, 
+          36, 64, 63, -1, 67, 66, 64, -1, 66, 65, 64, -1, 36, 35, 67, -1, 
+          35, 68, 67, -1, 59, 37, 62, -1, 37, 59, 58, -1, 62, 61, 59, -1, 
+          61, 60, 59, -1, 37, 36, 62, -1, 36, 63, 62, -1, 56, 55, 57, -1, 
+          55, 38, 57, -1, 38, 37, 57, -1, 37, 58, 57, -1, 53, 39, 38, -1, 
+          39, 53, 52, -1, 38, 55, 53, -1, 55, 54, 53, -1, 48, 40, 51, -1, 
+          40, 48, 47, -1, 51, 50, 48, -1, 50, 49, 48, -1, 40, 39, 51, -1, 
+          39, 52, 51, -1, 43, 41, 46, -1, 41, 43, 42, -1, 46, 45, 43, -1, 
+          45, 44, 43, -1, 41, 40, 46, -1, 40, 47, 46, -1]
+        }
+    }
+  ]
+}
+
+DEF face16 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6   #大头里面的截面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face16-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face16-COORD Coordinate { point [
+          0 24.5 -236.5, 3.74 24.21 -236.5, 7.392 23.36 -236.5, 
+          10.87 21.96 -236.5, 14.1 20.04 -236.5, 16.99 17.65 -236.5, 
+          19.48 14.85 -236.5, 21.52 11.7 -236.5, 23.06 8.281 -236.5, 
+          24.05 4.665 -236.5, 24.48 0.9384 -236.5, 24.5 0 -236.5, 
+          24.34 -2.81 -236.5, 23.62 -6.492 -236.5, 22.36 -10.02 -236.5, 
+          20.56 -13.32 -236.5, 18.29 -16.3 -236.5, 15.59 -18.9 -236.5, 
+          12.52 -21.06 -236.5, 9.159 -22.72 -236.5, 5.582 -23.86 -236.5, 
+          1.875 -24.43 -236.5, -1.875 -24.43 -236.5, -5.582 -23.86 -236.5, 
+          -9.159 -22.72 -236.5, -12.52 -21.06 -236.5, -15.59 -18.9 -236.5, 
+          -18.29 -16.3 -236.5, -20.56 -13.32 -236.5, -22.36 -10.02 -236.5, 
+          -23.62 -6.492 -236.5, -24.34 -2.81 -236.5, -24.48 0.9384 -236.5, 
+          -24.05 4.665 -236.5, -23.06 8.281 -236.5, -21.52 11.7 -236.5, 
+          -19.48 14.85 -236.5, -16.99 17.65 -236.5, -14.1 20.04 -236.5, 
+          -10.87 21.96 -236.5, -7.392 23.36 -236.5, -3.74 24.21 -236.5, 
+          0 24.5 -236.5, 0 32.84 -238.8, -2 32.83 -238.8, -2 37.95 -240.2, 
+          -5.007 37.67 -240.2, -4.067 32.64 -238.8, -5.014 32.47 -238.8, 
+          -7.999 31.91 -238.8, -8.939 36.93 -240.2, -11.47 36.23 -240.2, 
+          -11.84 36.11 -240.2, -9.996 31.34 -238.8, -13.73 29.89 -238.8, 
+          -15.57 34.66 -240.2, -16.86 34.05 -240.2, -18.28 33.32 -240.2, 
+          -15.58 28.97 -238.8, -18.92 26.9 -238.8, -18.98 26.86 -238.8, 
+          -19.72 28.05 -239.2, -21.68 31.21 -240.2, -21.86 31.08 -240.2, 
+          -24.09 29.39 -240.2, -20.64 25.61 -238.8, -22.78 23.67 -238.8, 
+          -23.6 22.92 -238.8, -27.04 26.7 -240.2, -29.08 24.47 -240.2, 
+          -25 21.38 -238.8, -26.11 19.91 -238.8, -27.41 18.19 -238.8, 
+          -31.49 21.27 -240.2, -33.08 18.71 -240.2, -28.5 16.43 -238.8, 
+          -28.86 15.7 -238.8, -30.28 12.85 -238.8, -34.86 15.13 -240.2, 
+          -35.76 12.84 -240.2, -35.95 12.31 -240.2, -31.03 10.91 -238.8, 
+          -32.13 7.063 -238.8, -37.05 8.462 -240.2, -37.3 7.235 -240.2, 
+          -37.6 5.494 -240.2, -32.51 5.022 -238.8, -32.86 1.259 -238.8, 
+          -32.88 1.039 -238.8, -37.06 1.427 -240, -37.97 1.511 -240.2, 
+          -37.97 1.456 -240.2, -37.97 -1.508 -240.2, -32.88 -1.037 -238.8, 
+          -32.63 -3.767 -238.8, -32.51 -5.02 -238.8, -37.6 -5.491 -240.2, 
+          -37.05 -8.46 -240.2, -32.13 -7.06 -238.8, -31.66 -8.7 -238.8, 
+          -31.03 -10.91 -238.8, -35.95 -12.31 -240.2, -34.86 -15.12 -240.2, 
+          -30.28 -12.84 -238.8, -29.99 -13.44 -238.8, -28.5 -16.42 -238.8, 
+          -33.08 -18.7 -240.2, -31.9 -20.66 -240.2, -31.49 -21.27 -240.2, 
+          -27.41 -18.19 -238.8, -25 -21.38 -238.8, -29.08 -24.46 -240.2, 
+          -28.37 -25.28 -240.2, -27.04 -26.69 -240.2, -23.6 -22.92 -238.8, 
+          -20.92 -25.36 -238.8, -20.64 -25.61 -238.8, -24.09 -29.39 -240.2, 
+          -21.68 -31.21 -240.2, -18.99 -26.86 -238.8, -16.78 -28.23 -238.8, 
+          -15.59 -28.97 -238.8, -18.28 -33.32 -240.2, -15.58 -34.66 -240.2, 
+          -13.73 -29.89 -238.8, -12.28 -30.46 -238.8, -9.998 -31.34 -238.8, 
+          -11.85 -36.11 -240.2, -8.941 -36.93 -240.2, -8.001 -31.91 -238.8, 
+          -7.49 -32 -238.8, -4.069 -32.64 -238.8, -5.009 -37.67 -240.2, 
+          -2.909 -37.89 -240.2, -2.003 -37.95 -240.2, -2.002 -32.83 -238.8, 
+          1.998 -32.83 -238.8, 1.997 -37.95 -240.2, 2.909 -37.89 -240.2, 
+          5.004 -37.67 -240.2, 4.065 -32.64 -238.8, 7.49 -32 -238.8, 
+          7.997 -31.91 -238.8, 8.936 -36.93 -240.2, 11.84 -36.11 -240.2, 
+          9.994 -31.34 -238.8, 12.28 -30.46 -238.8, 13.72 -29.9 -238.8, 
+          15.57 -34.66 -240.2, 18.27 -33.32 -240.2, 15.58 -28.97 -238.8, 
+          16.78 -28.23 -238.8, 18.98 -26.86 -238.8, 21.67 -31.21 -240.2, 
+          24.08 -29.39 -240.2, 20.64 -25.61 -238.8, 20.92 -25.36 -238.8, 
+          23.6 -22.92 -238.8, 27.04 -26.7 -240.2, 28.37 -25.28 -240.2, 
+          29.08 -24.47 -240.2, 24.99 -21.39 -238.8, 27.41 -18.19 -238.8, 
+          31.49 -21.28 -240.2, 31.9 -20.66 -240.2, 33.08 -18.71 -240.2, 
+          28.5 -16.43 -238.8, 29.99 -13.44 -238.8, 30.28 -12.85 -238.8, 
+          34.86 -15.13 -240.2, 35.95 -12.31 -240.2, 31.03 -10.91 -238.8, 
+          31.66 -8.7 -238.8, 32.13 -7.065 -238.8, 37.05 -8.465 -240.2, 
+          37.6 -5.497 -240.2, 32.51 -5.024 -238.8, 32.63 -3.767 -238.8, 
+          32.88 -1.041 -238.8, 37.97 -1.514 -240.2, 37.97 1.456 -240.2, 
+          37.97 1.506 -240.2, 37.15 1.429 -240, 32.88 1.035 -238.8, 
+          32.86 1.259 -238.8, 32.51 5.018 -238.8, 37.6 5.489 -240.2, 
+          37.3 7.235 -240.2, 37.05 8.457 -240.2, 32.13 7.058 -238.8, 
+          31.03 10.91 -238.8, 35.95 12.3 -240.2, 35.76 12.84 -240.2, 
+          34.86 15.12 -240.2, 30.28 12.84 -238.8, 28.86 15.7 -238.8, 
+          28.5 16.42 -238.8, 33.08 18.7 -240.2, 31.49 21.27 -240.2, 
+          27.41 18.19 -238.8, 26.11 19.91 -238.8, 25 21.38 -238.8, 
+          29.08 24.46 -240.2, 27.05 26.69 -240.2, 23.6 22.91 -238.8, 
+          22.78 23.67 -238.8, 20.65 25.61 -238.8, 24.09 29.39 -240.2, 
+          21.86 31.08 -240.2, 21.68 31.21 -240.2, 19.77 28.12 -239.2, 
+          18.99 26.86 -238.8, 18.92 26.9 -238.8, 15.59 28.97 -238.8, 
+          18.28 33.31 -240.2, 16.86 34.05 -240.2, 15.58 34.66 -240.2, 
+          13.73 29.89 -238.8, 10 31.34 -238.8, 11.85 36.11 -240.2, 
+          11.47 36.23 -240.2, 8.944 36.93 -240.2, 8.003 31.91 -238.8, 
+          5.014 32.47 -238.8, 4.072 32.64 -238.8, 5.012 37.67 -240.2, 
+          2 37.95 -240.2, 2 32.83 -238.8, 0 32.84 -238.8, 0 24.5 -236.5]
+        }
+        coordIndex [
+          224, 227, 1, -1, 1, 223, 224, -1, 227, 224, 226, -1, 
+          226, 224, 225, -1, 1, 227, 0, -1, 0, 227, 228, -1, 
+          222, 2, 220, -1, 220, 221, 222, -1, 2, 222, 1, -1, 
+          1, 222, 223, -1, 217, 3, 215, -1, 215, 216, 217, -1, 
+          3, 217, 2, -1, 217, 218, 2, -1, 2, 218, 220, -1, 220, 218, 219, -1, 
+          213, 3, 4, -1, 4, 212, 213, -1, 3, 213, 215, -1, 215, 213, 214, -1, 
+          208, 209, 210, -1, 206, 211, 5, -1, 5, 205, 206, -1, 
+          211, 206, 210, -1, 210, 206, 208, -1, 208, 206, 207, -1, 
+          5, 211, 4, -1, 4, 211, 212, -1, 201, 204, 6, -1, 6, 200, 201, -1, 
+          204, 201, 203, -1, 203, 201, 202, -1, 6, 204, 5, -1, 
+          5, 204, 205, -1, 196, 199, 7, -1, 7, 195, 196, -1, 
+          199, 196, 198, -1, 198, 196, 197, -1, 7, 199, 6, -1, 
+          6, 199, 200, -1, 194, 8, 192, -1, 192, 193, 194, -1, 
+          8, 194, 7, -1, 7, 194, 195, -1, 189, 9, 187, -1, 187, 188, 189, -1, 
+          9, 189, 8, -1, 189, 190, 8, -1, 8, 190, 192, -1, 192, 190, 191, -1, 
+          185, 9, 10, -1, 10, 184, 185, -1, 9, 185, 187, -1, 
+          187, 185, 186, -1, 180, 181, 182, -1, 178, 11, 12, -1, 
+          12, 177, 178, -1, 178, 182, 183, -1, 183, 11, 178, -1, 
+          182, 178, 180, -1, 180, 178, 179, -1, 11, 183, 10, -1, 
+          10, 183, 184, -1, 173, 176, 13, -1, 13, 172, 173, -1, 
+          176, 173, 175, -1, 175, 173, 174, -1, 13, 176, 12, -1, 
+          12, 176, 177, -1, 168, 171, 14, -1, 14, 167, 168, -1, 
+          171, 168, 170, -1, 170, 168, 169, -1, 14, 171, 13, -1, 
+          13, 171, 172, -1, 166, 15, 164, -1, 164, 165, 166, -1, 
+          15, 166, 14, -1, 14, 166, 167, -1, 161, 16, 159, -1, 
+          159, 160, 161, -1, 16, 161, 15, -1, 161, 162, 15, -1, 
+          15, 162, 164, -1, 164, 162, 163, -1, 157, 16, 17, -1, 
+          17, 156, 157, -1, 16, 157, 159, -1, 159, 157, 158, -1, 
+          152, 155, 18, -1, 18, 151, 152, -1, 155, 152, 154, -1, 
+          154, 152, 153, -1, 18, 155, 17, -1, 17, 155, 156, -1, 
+          147, 150, 19, -1, 19, 146, 147, -1, 150, 147, 149, -1, 
+          149, 147, 148, -1, 19, 150, 18, -1, 18, 150, 151, -1, 
+          142, 145, 20, -1, 20, 141, 142, -1, 145, 142, 144, -1, 
+          144, 142, 143, -1, 20, 145, 19, -1, 19, 145, 146, -1, 
+          140, 21, 138, -1, 138, 139, 140, -1, 21, 140, 20, -1, 
+          20, 140, 141, -1, 135, 22, 133, -1, 133, 134, 135, -1, 
+          22, 135, 21, -1, 135, 136, 21, -1, 21, 136, 138, -1, 
+          138, 136, 137, -1, 131, 22, 23, -1, 23, 130, 131, -1, 
+          22, 131, 133, -1, 133, 131, 132, -1, 126, 129, 24, -1, 
+          24, 125, 126, -1, 129, 126, 128, -1, 128, 126, 127, -1, 
+          24, 129, 23, -1, 23, 129, 130, -1, 121, 124, 25, -1, 
+          25, 120, 121, -1, 124, 121, 123, -1, 123, 121, 122, -1, 
+          25, 124, 24, -1, 24, 124, 125, -1, 116, 119, 26, -1, 
+          26, 115, 116, -1, 119, 116, 118, -1, 118, 116, 117, -1, 
+          26, 119, 25, -1, 25, 119, 120, -1, 114, 27, 112, -1, 
+          112, 113, 114, -1, 27, 114, 26, -1, 26, 114, 115, -1, 
+          108, 109, 107, -1, 107, 109, 28, -1, 28, 109, 27, -1, 
+          109, 110, 27, -1, 27, 110, 112, -1, 112, 110, 111, -1, 
+          105, 28, 29, -1, 29, 104, 105, -1, 28, 105, 107, -1, 
+          107, 105, 106, -1, 100, 103, 30, -1, 30, 99, 100, -1, 
+          103, 100, 102, -1, 102, 100, 101, -1, 30, 103, 29, -1, 
+          29, 103, 104, -1, 95, 98, 31, -1, 31, 94, 95, -1, 98, 95, 97, -1, 
+          97, 95, 96, -1, 31, 98, 30, -1, 30, 98, 99, -1, 88, 93, 32, -1, 
+          32, 87, 88, -1, 93, 88, 92, -1, 92, 88, 91, -1, 91, 88, 89, -1, 
+          32, 93, 31, -1, 31, 93, 94, -1, 86, 33, 84, -1, 84, 85, 86, -1, 
+          33, 86, 32, -1, 32, 86, 87, -1, 89, 90, 91, -1, 80, 81, 79, -1, 
+          79, 81, 34, -1, 34, 81, 33, -1, 81, 82, 33, -1, 33, 82, 84, -1, 
+          84, 82, 83, -1, 77, 34, 35, -1, 35, 76, 77, -1, 34, 77, 79, -1, 
+          79, 77, 78, -1, 72, 75, 36, -1, 36, 71, 72, -1, 75, 72, 74, -1, 
+          74, 72, 73, -1, 36, 75, 35, -1, 35, 75, 76, -1, 67, 70, 37, -1, 
+          37, 66, 67, -1, 70, 67, 69, -1, 69, 67, 68, -1, 37, 70, 36, -1, 
+          36, 70, 71, -1, 60, 65, 38, -1, 38, 59, 60, -1, 65, 60, 64, -1, 
+          64, 60, 63, -1, 63, 60, 61, -1, 38, 65, 37, -1, 37, 65, 66, -1, 
+          58, 39, 56, -1, 56, 57, 58, -1, 39, 58, 38, -1, 38, 58, 59, -1, 
+          61, 62, 63, -1, 52, 53, 51, -1, 51, 53, 40, -1, 40, 53, 39, -1, 
+          53, 54, 39, -1, 39, 54, 56, -1, 56, 54, 55, -1, 49, 40, 41, -1, 
+          41, 48, 49, -1, 40, 49, 51, -1, 51, 49, 50, -1, 44, 47, 42, -1, 
+          42, 43, 44, -1, 47, 44, 46, -1, 46, 44, 45, -1, 42, 47, 41, -1, 
+          41, 47, 48, -1]
+        }
+    }
+  ]
+}
+DEF face15 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  #从小头数第四个圆柱面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face15-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face15-COORD Coordinate { point [
+          24.5 0 -236.5, 24.48 0.9384 -236.5, 24.16 3.733 -236.5, 
+          24.05 4.665 -236.5, 23.31 7.377 -236.5, 23.06 8.281 -236.5, 
+          21.91 10.85 -236.5, 21.52 11.7 -236.5, 19.99 14.07 -236.5, 
+          19.48 14.85 -236.5, 17.61 16.95 -236.5, 16.99 17.65 -236.5, 
+          14.82 19.44 -236.5, 14.1 20.04 -236.5, 11.68 21.48 -236.5, 
+          10.87 21.96 -236.5, 8.262 23.01 -236.5, 7.392 23.36 -236.5, 
+          4.653 24 -236.5, 3.74 24.21 -236.5, 0.935 24.43 -236.5, 
+          0 24.5 -236.5, -2.805 24.28 -236.5, -3.74 24.21 -236.5, 
+          -6.479 23.57 -236.5, -7.392 23.36 -236.5, -10 22.31 -236.5, 
+          -10.87 21.96 -236.5, -13.29 20.52 -236.5, -14.1 20.04 -236.5, 
+          -16.27 18.25 -236.5, -16.99 17.65 -236.5, -18.86 15.55 -236.5, 
+          -19.48 14.85 -236.5, -21.01 12.49 -236.5, -21.52 11.7 -236.5, 
+          -22.67 9.137 -236.5, -23.06 8.281 -236.5, -23.8 5.569 -236.5, 
+          -24.05 4.665 -236.5, -24.37 1.87 -236.5, -24.48 0.9384 -236.5, 
+          -24.37 -1.873 -236.5, -24.34 -2.81 -236.5, -23.8 -5.571 -236.5, 
+          -23.62 -6.492 -236.5, -22.67 -9.14 -236.5, -22.36 -10.02 -236.5, 
+          -21.01 -12.49 -236.5, -20.56 -13.32 -236.5, -18.86 -15.55 -236.5, 
+          -18.29 -16.3 -236.5, -16.26 -18.25 -236.5, -15.59 -18.9 -236.5, 
+          -13.29 -20.52 -236.5, -12.52 -21.06 -236.5, -9.999 -22.31 -236.5, 
+          -9.159 -22.72 -236.5, -6.476 -23.57 -236.5, -5.582 -23.86 -236.5, 
+          -2.802 -24.28 -236.5, -1.875 -24.43 -236.5, 0.9377 -24.43 -236.5, 
+          1.875 -24.43 -236.5, 4.656 -24 -236.5, 5.582 -23.86 -236.5, 
+          8.264 -23.01 -236.5, 9.159 -22.72 -236.5, 11.68 -21.48 -236.5, 
+          12.52 -21.06 -236.5, 14.82 -19.44 -236.5, 15.59 -18.9 -236.5, 
+          17.61 -16.95 -236.5, 18.29 -16.3 -236.5, 20 -14.06 -236.5, 
+          20.56 -13.32 -236.5, 21.91 -10.85 -236.5, 22.36 -10.02 -236.5, 
+          23.31 -7.375 -236.5, 23.62 -6.492 -236.5, 24.16 -3.73 -236.5, 
+          24.34 -2.81 -236.5, 24.5 0 -236.5, 24.5 0 -228, 24.21 -3.74 -228, 
+          23.36 -7.392 -228, 21.96 -10.87 -228, 20.04 -14.1 -228, 
+          17.65 -16.99 -228, 14.85 -19.48 -228, 11.7 -21.52 -228, 
+          8.281 -23.06 -228, 4.665 -24.05 -228, 0.9384 -24.48 -228, 
+          -2.81 -24.34 -228, -6.492 -23.62 -228, -10.02 -22.36 -228, 
+          -13.32 -20.56 -228, -16.3 -18.29 -228, -18.9 -15.59 -228, 
+          -21.06 -12.52 -228, -22.72 -9.159 -228, -23.86 -5.582 -228, 
+          -24.43 -1.875 -228, -24.43 1.875 -228, -23.86 5.582 -228, 
+          -22.72 9.159 -228, -21.06 12.52 -228, -18.9 15.59 -228, 
+          -16.3 18.29 -228, -13.32 20.56 -228, -10.02 22.36 -228, 
+          -6.492 23.62 -228, -2.81 24.34 -228, 0.9384 24.48 -228, 
+          4.665 24.05 -228, 8.281 23.06 -228, 11.7 21.52 -228, 
+          14.85 19.48 -228, 17.65 16.99 -228, 20.04 14.1 -228, 
+          21.96 10.87 -228, 23.36 7.392 -228, 24.21 3.74 -228, 
+          24.5 0 -228, 24.5 0 -236.5]
+        }
+        coordIndex [
+          2, 123, 124, -1, 124, 0, 1, -1, 1, 2, 124, -1, 4, 122, 123, -1, 
+          123, 2, 3, -1, 3, 4, 123, -1, 6, 121, 122, -1, 122, 4, 5, -1, 
+          5, 6, 122, -1, 8, 120, 121, -1, 121, 6, 7, -1, 7, 8, 121, -1, 
+          10, 119, 120, -1, 120, 8, 9, -1, 9, 10, 120, -1, 12, 118, 119, -1, 
+          119, 10, 11, -1, 11, 12, 119, -1, 14, 117, 118, -1, 
+          118, 12, 13, -1, 13, 14, 118, -1, 16, 116, 117, -1, 
+          117, 14, 15, -1, 15, 16, 117, -1, 18, 115, 116, -1, 
+          116, 16, 17, -1, 17, 18, 116, -1, 20, 114, 115, -1, 
+          115, 18, 19, -1, 19, 20, 115, -1, 22, 113, 114, -1, 
+          114, 20, 21, -1, 21, 22, 114, -1, 24, 112, 113, -1, 
+          113, 22, 23, -1, 23, 24, 113, -1, 26, 111, 112, -1, 
+          112, 24, 25, -1, 25, 26, 112, -1, 28, 110, 111, -1, 
+          111, 26, 27, -1, 27, 28, 111, -1, 30, 109, 110, -1, 
+          110, 28, 29, -1, 29, 30, 110, -1, 32, 108, 109, -1, 
+          109, 30, 31, -1, 31, 32, 109, -1, 34, 107, 108, -1, 
+          108, 32, 33, -1, 33, 34, 108, -1, 36, 106, 107, -1, 
+          107, 34, 35, -1, 35, 36, 107, -1, 38, 105, 106, -1, 
+          106, 36, 37, -1, 37, 38, 106, -1, 40, 104, 105, -1, 
+          105, 38, 39, -1, 39, 40, 105, -1, 42, 103, 104, -1, 
+          104, 40, 41, -1, 41, 42, 104, -1, 44, 102, 103, -1, 
+          103, 42, 43, -1, 43, 44, 103, -1, 46, 101, 102, -1, 
+          102, 44, 45, -1, 45, 46, 102, -1, 48, 100, 101, -1, 
+          101, 46, 47, -1, 47, 48, 101, -1, 50, 99, 100, -1, 
+          100, 48, 49, -1, 49, 50, 100, -1, 52, 98, 99, -1, 99, 50, 51, -1, 
+          51, 52, 99, -1, 54, 97, 98, -1, 98, 52, 53, -1, 53, 54, 98, -1, 
+          56, 96, 97, -1, 97, 54, 55, -1, 55, 56, 97, -1, 58, 95, 96, -1, 
+          96, 56, 57, -1, 57, 58, 96, -1, 60, 94, 95, -1, 95, 58, 59, -1, 
+          59, 60, 95, -1, 62, 93, 94, -1, 94, 60, 61, -1, 61, 62, 94, -1, 
+          64, 92, 93, -1, 93, 62, 63, -1, 63, 64, 93, -1, 66, 91, 92, -1, 
+          92, 64, 65, -1, 65, 66, 92, -1, 68, 90, 91, -1, 91, 66, 67, -1, 
+          67, 68, 91, -1, 70, 89, 90, -1, 90, 68, 69, -1, 69, 70, 90, -1, 
+          72, 88, 89, -1, 89, 70, 71, -1, 71, 72, 89, -1, 74, 87, 88, -1, 
+          88, 72, 73, -1, 73, 74, 88, -1, 76, 86, 87, -1, 87, 74, 75, -1, 
+          75, 76, 87, -1, 78, 85, 86, -1, 86, 76, 77, -1, 77, 78, 86, -1, 
+          80, 84, 85, -1, 85, 78, 79, -1, 79, 80, 85, -1, 82, 83, 84, -1, 
+          84, 80, 81, -1, 81, 82, 84, -1]
+        }
+    }
+  ]
+}
+DEF face14 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  #从小头数第四个圆柱面的侧面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face14-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face14-COORD Coordinate { point [
+          24.5 0 -228, 24.21 3.74 -228, 23.36 7.392 -228, 21.96 10.87 -228, 
+          20.04 14.1 -228, 17.65 16.99 -228, 14.85 19.48 -228, 
+          11.7 21.52 -228, 8.281 23.06 -228, 4.665 24.05 -228, 
+          0.9384 24.48 -228, -2.81 24.34 -228, -6.492 23.62 -228, 
+          -10.02 22.36 -228, -13.32 20.56 -228, -16.3 18.29 -228, 
+          -18.9 15.59 -228, -21.06 12.52 -228, -22.72 9.159 -228, 
+          -23.86 5.582 -228, -24.43 1.875 -228, -24.43 -1.875 -228, 
+          -23.86 -5.582 -228, -22.72 -9.159 -228, -21.06 -12.52 -228, 
+          -18.9 -15.59 -228, -16.3 -18.29 -228, -13.32 -20.56 -228, 
+          -10.02 -22.36 -228, -6.492 -23.62 -228, -2.81 -24.34 -228, 
+          0.9384 -24.48 -228, 4.665 -24.05 -228, 8.281 -23.06 -228, 
+          11.7 -21.52 -228, 14.85 -19.48 -228, 17.65 -16.99 -228, 
+          20.04 -14.1 -228, 21.96 -10.87 -228, 23.36 -7.392 -228, 
+          24.21 -3.74 -228, 21 0 -228, 20.75 -3.206 -228, 20.02 -6.336 -228, 
+          18.82 -9.318 -228, 17.18 -12.08 -228, 15.13 -14.56 -228, 
+          12.73 -16.7 -228, 10.03 -18.45 -228, 7.098 -19.76 -228, 
+          3.998 -20.62 -228, 0.8044 -20.98 -228, -2.408 -20.86 -228, 
+          -5.565 -20.25 -228, -8.59 -19.16 -228, -11.41 -17.63 -228, 
+          -13.97 -15.68 -228, -16.2 -13.36 -228, -18.05 -10.73 -228, 
+          -19.48 -7.85 -228, -20.45 -4.785 -228, -20.94 -1.608 -228, 
+          -20.94 1.608 -228, -20.45 4.785 -228, -19.48 7.85 -228, 
+          -18.05 10.73 -228, -16.2 13.36 -228, -13.97 15.68 -228, 
+          -11.41 17.63 -228, -8.59 19.16 -228, -5.565 20.25 -228, 
+          -2.408 20.86 -228, 0.8044 20.98 -228, 3.998 20.62 -228, 
+          7.098 19.76 -228, 10.03 18.45 -228, 12.73 16.7 -228, 
+          15.13 14.56 -228, 17.18 12.08 -228, 18.82 9.318 -228, 
+          20.02 6.336 -228, 20.75 3.206 -228]
+        }
+        coordIndex [
+          53, 32, 52, -1, 52, 32, 51, -1, 51, 32, 33, -1, 51, 33, 50, -1, 
+          50, 33, 34, -1, 50, 34, 49, -1, 49, 34, 48, -1, 48, 34, 35, -1, 
+          48, 35, 47, -1, 47, 35, 36, -1, 47, 36, 46, -1, 46, 36, 37, -1, 
+          46, 37, 45, -1, 45, 37, 38, -1, 45, 38, 44, -1, 44, 38, 39, -1, 
+          44, 39, 43, -1, 43, 39, 42, -1, 42, 39, 40, -1, 42, 40, 41, -1, 
+          41, 40, 0, -1, 41, 0, 81, -1, 81, 0, 1, -1, 81, 1, 80, -1, 
+          80, 1, 2, -1, 80, 2, 79, -1, 79, 2, 78, -1, 78, 2, 3, -1, 
+          78, 3, 77, -1, 77, 3, 4, -1, 77, 4, 76, -1, 76, 4, 75, -1, 
+          75, 4, 74, -1, 74, 4, 5, -1, 28, 29, 30, -1, 28, 30, 27, -1, 
+          27, 30, 31, -1, 27, 31, 26, -1, 26, 31, 32, -1, 26, 32, 53, -1, 
+          26, 53, 54, -1, 26, 54, 25, -1, 25, 54, 55, -1, 25, 55, 56, -1, 
+          25, 56, 24, -1, 24, 56, 57, -1, 24, 57, 58, -1, 24, 58, 23, -1, 
+          23, 58, 59, -1, 23, 59, 22, -1, 22, 59, 60, -1, 22, 60, 21, -1, 
+          21, 60, 61, -1, 21, 61, 20, -1, 20, 61, 62, -1, 20, 62, 19, -1, 
+          19, 62, 63, -1, 19, 63, 64, -1, 19, 64, 18, -1, 18, 64, 65, -1, 
+          18, 65, 17, -1, 17, 65, 66, -1, 17, 66, 16, -1, 16, 66, 67, -1, 
+          16, 67, 15, -1, 15, 67, 68, -1, 15, 68, 14, -1, 14, 68, 69, -1, 
+          14, 69, 70, -1, 14, 70, 13, -1, 13, 70, 71, -1, 13, 71, 72, -1, 
+          13, 72, 12, -1, 12, 72, 73, -1, 12, 73, 74, -1, 12, 74, 5, -1, 
+          12, 5, 11, -1, 11, 5, 6, -1, 11, 6, 10, -1, 10, 6, 7, -1, 
+          10, 7, 9, -1, 9, 7, 8, -1]
+        }
+    }
+  ]
+}
+DEF face13 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  #挨着第四个圆柱面的凹槽
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face13-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face13-COORD Coordinate { point [
+          21 0 -228, 20.75 3.206 -228, 20.02 6.336 -228, 18.82 9.318 -228, 
+          17.18 12.08 -228, 15.13 14.56 -228, 12.73 16.7 -228, 
+          10.03 18.45 -228, 7.098 19.76 -228, 3.998 20.62 -228, 
+          0.8044 20.98 -228, -2.408 20.86 -228, -5.565 20.25 -228, 
+          -8.59 19.16 -228, -11.41 17.63 -228, -13.97 15.68 -228, 
+          -16.2 13.36 -228, -18.05 10.73 -228, -19.48 7.85 -228, 
+          -20.45 4.785 -228, -20.94 1.608 -228, -20.94 -1.608 -228, 
+          -20.45 -4.785 -228, -19.48 -7.85 -228, -18.05 -10.73 -228, 
+          -16.2 -13.36 -228, -13.97 -15.68 -228, -11.41 -17.63 -228, 
+          -8.59 -19.16 -228, -5.565 -20.25 -228, -2.408 -20.86 -228, 
+          0.8044 -20.98 -228, 3.998 -20.62 -228, 7.098 -19.76 -228, 
+          10.03 -18.45 -228, 12.73 -16.7 -228, 15.13 -14.56 -228, 
+          17.18 -12.08 -228, 18.82 -9.318 -228, 20.02 -6.336 -228, 
+          20.75 -3.206 -228, 21 0 -228, 21 0 -225, 20.75 -3.206 -225, 
+          20.02 -6.336 -225, 18.82 -9.318 -225, 17.18 -12.08 -225, 
+          15.13 -14.56 -225, 12.73 -16.7 -225, 10.03 -18.45 -225, 
+          7.098 -19.76 -225, 3.998 -20.62 -225, 0.8044 -20.98 -225, 
+          -2.408 -20.86 -225, -5.565 -20.25 -225, -8.59 -19.16 -225, 
+          -11.41 -17.63 -225, -13.97 -15.68 -225, -16.2 -13.36 -225, 
+          -18.05 -10.73 -225, -19.48 -7.85 -225, -20.45 -4.785 -225, 
+          -20.94 -1.608 -225, -20.94 1.608 -225, -20.45 4.785 -225, 
+          -19.48 7.85 -225, -18.05 10.73 -225, -16.2 13.36 -225, 
+          -13.97 15.68 -225, -11.41 17.63 -225, -8.59 19.16 -225, 
+          -5.565 20.25 -225, -2.408 20.86 -225, 0.8044 20.98 -225, 
+          3.998 20.62 -225, 7.098 19.76 -225, 10.03 18.45 -225, 
+          12.73 16.7 -225, 15.13 14.56 -225, 17.18 12.08 -225, 
+          18.82 9.318 -225, 20.02 6.336 -225, 20.75 3.206 -225, 
+          21 0 -225, 21 0 -228]
+        }
+        coordIndex [
+          1, 82, 83, -1, 83, 0, 1, -1, 2, 81, 82, -1, 82, 1, 2, -1, 
+          3, 80, 81, -1, 81, 2, 3, -1, 4, 79, 80, -1, 80, 3, 4, -1, 
+          5, 78, 79, -1, 79, 4, 5, -1, 6, 77, 78, -1, 78, 5, 6, -1, 
+          7, 76, 77, -1, 77, 6, 7, -1, 8, 75, 76, -1, 76, 7, 8, -1, 
+          9, 74, 75, -1, 75, 8, 9, -1, 10, 73, 74, -1, 74, 9, 10, -1, 
+          11, 72, 73, -1, 73, 10, 11, -1, 12, 71, 72, -1, 72, 11, 12, -1, 
+          13, 70, 71, -1, 71, 12, 13, -1, 14, 69, 70, -1, 70, 13, 14, -1, 
+          15, 68, 69, -1, 69, 14, 15, -1, 16, 67, 68, -1, 68, 15, 16, -1, 
+          17, 66, 67, -1, 67, 16, 17, -1, 18, 65, 66, -1, 66, 17, 18, -1, 
+          19, 64, 65, -1, 65, 18, 19, -1, 20, 63, 64, -1, 64, 19, 20, -1, 
+          21, 62, 63, -1, 63, 20, 21, -1, 22, 61, 62, -1, 62, 21, 22, -1, 
+          23, 60, 61, -1, 61, 22, 23, -1, 24, 59, 60, -1, 60, 23, 24, -1, 
+          25, 58, 59, -1, 59, 24, 25, -1, 26, 57, 58, -1, 58, 25, 26, -1, 
+          27, 56, 57, -1, 57, 26, 27, -1, 28, 55, 56, -1, 56, 27, 28, -1, 
+          29, 54, 55, -1, 55, 28, 29, -1, 30, 53, 54, -1, 54, 29, 30, -1, 
+          31, 52, 53, -1, 53, 30, 31, -1, 32, 51, 52, -1, 52, 31, 32, -1, 
+          33, 50, 51, -1, 51, 32, 33, -1, 34, 49, 50, -1, 50, 33, 34, -1, 
+          35, 48, 49, -1, 49, 34, 35, -1, 36, 47, 48, -1, 48, 35, 36, -1, 
+          37, 46, 47, -1, 47, 36, 37, -1, 38, 45, 46, -1, 46, 37, 38, -1, 
+          39, 44, 45, -1, 45, 38, 39, -1, 40, 43, 44, -1, 44, 39, 40, -1, 
+          41, 42, 43, -1, 43, 40, 41, -1]
+        }
+    }
+  ]
+}
+DEF face12 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6   #第三个圆柱面挨着凹槽的截面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face12-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face12-COORD Coordinate { point [
+          22.5 0 -225, 22.24 -3.435 -225, 21.45 -6.789 -225, 20.16 -9.984 -225, 
+          18.4 -12.94 -225, 16.21 -15.6 -225, 13.64 -17.89 -225, 
+          10.75 -19.77 -225, 7.605 -21.18 -225, 4.284 -22.09 -225, 
+          0.8618 -22.48 -225, -2.58 -22.35 -225, -5.962 -21.7 -225, 
+          -9.204 -20.53 -225, -12.23 -18.89 -225, -14.97 -16.8 -225, 
+          -17.36 -14.32 -225, -19.34 -11.5 -225, -20.87 -8.411 -225, 
+          -21.91 -5.127 -225, -22.43 -1.722 -225, -22.43 1.722 -225, 
+          -21.91 5.127 -225, -20.87 8.411 -225, -19.34 11.5 -225, 
+          -17.36 14.32 -225, -14.97 16.8 -225, -12.23 18.89 -225, 
+          -9.204 20.53 -225, -5.962 21.7 -225, -2.58 22.35 -225, 
+          0.8618 22.48 -225, 4.284 22.09 -225, 7.605 21.18 -225, 
+          10.75 19.77 -225, 13.64 17.89 -225, 16.21 15.6 -225, 
+          18.4 12.94 -225, 20.16 9.984 -225, 21.45 6.789 -225, 
+          22.24 3.435 -225, 21 0 -225, 20.75 3.206 -225, 20.02 6.336 -225, 
+          18.82 9.318 -225, 17.18 12.08 -225, 15.13 14.56 -225, 
+          12.73 16.7 -225, 10.03 18.45 -225, 7.098 19.76 -225, 
+          3.998 20.62 -225, 0.8044 20.98 -225, -2.408 20.86 -225, 
+          -5.565 20.25 -225, -8.59 19.16 -225, -11.41 17.63 -225, 
+          -13.97 15.68 -225, -16.2 13.36 -225, -18.05 10.73 -225, 
+          -19.48 7.85 -225, -20.45 4.785 -225, -20.94 1.608 -225, 
+          -20.94 -1.608 -225, -20.45 -4.785 -225, -19.48 -7.85 -225, 
+          -18.05 -10.73 -225, -16.2 -13.36 -225, -13.97 -15.68 -225, 
+          -11.41 -17.63 -225, -8.59 -19.16 -225, -5.565 -20.25 -225, 
+          -2.408 -20.86 -225, 0.8044 -20.98 -225, 3.998 -20.62 -225, 
+          7.098 -19.76 -225, 10.03 -18.45 -225, 12.73 -16.7 -225, 
+          15.13 -14.56 -225, 17.18 -12.08 -225, 18.82 -9.318 -225, 
+          20.02 -6.336 -225, 20.75 -3.206 -225]
+        }
+        coordIndex [
+          53, 31, 52, -1, 52, 31, 32, -1, 52, 32, 51, -1, 51, 32, 50, -1, 
+          50, 32, 33, -1, 50, 33, 49, -1, 49, 33, 34, -1, 49, 34, 48, -1, 
+          48, 34, 35, -1, 48, 35, 47, -1, 47, 35, 36, -1, 47, 36, 46, -1, 
+          46, 36, 37, -1, 46, 37, 45, -1, 45, 37, 38, -1, 45, 38, 44, -1, 
+          44, 38, 39, -1, 44, 39, 43, -1, 43, 39, 42, -1, 42, 39, 40, -1, 
+          42, 40, 41, -1, 41, 40, 0, -1, 41, 0, 81, -1, 81, 0, 1, -1, 
+          81, 1, 80, -1, 80, 1, 2, -1, 80, 2, 79, -1, 79, 2, 3, -1, 
+          79, 3, 78, -1, 78, 3, 4, -1, 78, 4, 77, -1, 77, 4, 5, -1, 
+          77, 5, 76, -1, 76, 5, 75, -1, 75, 6, 74, -1, 75, 5, 6, -1, 
+          28, 29, 30, -1, 28, 30, 27, -1, 27, 30, 31, -1, 27, 31, 53, -1, 
+          27, 53, 54, -1, 27, 54, 26, -1, 26, 54, 55, -1, 26, 55, 56, -1, 
+          26, 56, 25, -1, 25, 56, 57, -1, 25, 57, 24, -1, 24, 57, 58, -1, 
+          24, 58, 23, -1, 23, 58, 59, -1, 23, 59, 22, -1, 22, 59, 60, -1, 
+          22, 60, 21, -1, 21, 60, 61, -1, 21, 61, 20, -1, 20, 61, 62, -1, 
+          20, 62, 19, -1, 19, 62, 63, -1, 19, 63, 64, -1, 19, 64, 18, -1, 
+          18, 64, 65, -1, 18, 65, 17, -1, 17, 65, 66, -1, 17, 66, 16, -1, 
+          16, 66, 67, -1, 16, 67, 15, -1, 15, 67, 68, -1, 15, 68, 14, -1, 
+          14, 68, 69, -1, 14, 69, 13, -1, 13, 69, 70, -1, 13, 70, 12, -1, 
+          12, 70, 71, -1, 12, 71, 72, -1, 12, 72, 11, -1, 11, 72, 73, -1, 
+          74, 6, 10, -1, 73, 74, 10, -1, 11, 73, 10, -1, 10, 6, 7, -1, 
+          10, 7, 9, -1, 9, 7, 8, -1]
+        }
+    }
+  ]
+}
+DEF face11 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6   #第三个圆柱面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face11-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face11-COORD Coordinate { point [
+          22.5 0 -225, 22.24 3.435 -225, 21.45 6.789 -225, 20.16 9.984 -225, 
+          18.4 12.94 -225, 16.21 15.6 -225, 13.64 17.89 -225, 
+          10.75 19.77 -225, 7.605 21.18 -225, 4.284 22.09 -225, 
+          0.8618 22.48 -225, -2.58 22.35 -225, -5.962 21.7 -225, 
+          -9.204 20.53 -225, -12.23 18.89 -225, -14.97 16.8 -225, 
+          -17.36 14.32 -225, -19.34 11.5 -225, -20.87 8.411 -225, 
+          -21.91 5.127 -225, -22.43 1.722 -225, -22.43 -1.722 -225, 
+          -21.91 -5.127 -225, -20.87 -8.411 -225, -19.34 -11.5 -225, 
+          -17.36 -14.32 -225, -14.97 -16.8 -225, -12.23 -18.89 -225, 
+          -9.204 -20.53 -225, -5.962 -21.7 -225, -2.58 -22.35 -225, 
+          0.8618 -22.48 -225, 4.284 -22.09 -225, 7.605 -21.18 -225, 
+          10.75 -19.77 -225, 13.64 -17.89 -225, 16.21 -15.6 -225, 
+          18.4 -12.94 -225, 20.16 -9.984 -225, 21.45 -6.789 -225, 
+          22.24 -3.435 -225, 22.5 0 -225, 22.5 0 -115.5, 22.24 -3.435 -115.5, 
+          21.45 -6.789 -115.5, 20.16 -9.984 -115.5, 18.4 -12.94 -115.5, 
+          16.21 -15.6 -115.5, 13.64 -17.89 -115.5, 10.75 -19.77 -115.5, 
+          7.605 -21.18 -115.5, 4.284 -22.09 -115.5, 0.8618 -22.48 -115.5, 
+          -2.58 -22.35 -115.5, -5.962 -21.7 -115.5, -9.204 -20.53 -115.5, 
+          -12.23 -18.89 -115.5, -14.97 -16.8 -115.5, -17.36 -14.32 -115.5, 
+          -19.34 -11.5 -115.5, -20.87 -8.411 -115.5, -21.91 -5.127 -115.5, 
+          -22.43 -1.722 -115.5, -22.43 1.722 -115.5, -21.91 5.127 -115.5, 
+          -20.87 8.411 -115.5, -19.34 11.5 -115.5, -17.36 14.32 -115.5, 
+          -14.97 16.8 -115.5, -12.23 18.89 -115.5, -9.204 20.53 -115.5, 
+          -5.962 21.7 -115.5, -2.58 22.35 -115.5, 0.8618 22.48 -115.5, 
+          4.284 22.09 -115.5, 7.605 21.18 -115.5, 10.75 19.77 -115.5, 
+          13.64 17.89 -115.5, 16.21 15.6 -115.5, 18.4 12.94 -115.5, 
+          20.16 9.984 -115.5, 21.45 6.789 -115.5, 22.24 3.435 -115.5, 
+          22.5 0 -115.5, 22.5 0 -225]
+        }
+        coordIndex [
+          1, 82, 83, -1, 83, 0, 1, -1, 2, 81, 82, -1, 82, 1, 2, -1, 
+          3, 80, 81, -1, 81, 2, 3, -1, 4, 79, 80, -1, 80, 3, 4, -1, 
+          5, 78, 79, -1, 79, 4, 5, -1, 6, 77, 78, -1, 78, 5, 6, -1, 
+          7, 76, 77, -1, 77, 6, 7, -1, 8, 75, 76, -1, 76, 7, 8, -1, 
+          9, 74, 75, -1, 75, 8, 9, -1, 10, 73, 74, -1, 74, 9, 10, -1, 
+          11, 72, 73, -1, 73, 10, 11, -1, 12, 71, 72, -1, 72, 11, 12, -1, 
+          13, 70, 71, -1, 71, 12, 13, -1, 14, 69, 70, -1, 70, 13, 14, -1, 
+          15, 68, 69, -1, 69, 14, 15, -1, 16, 67, 68, -1, 68, 15, 16, -1, 
+          17, 66, 67, -1, 67, 16, 17, -1, 18, 65, 66, -1, 66, 17, 18, -1, 
+          19, 64, 65, -1, 65, 18, 19, -1, 20, 63, 64, -1, 64, 19, 20, -1, 
+          21, 62, 63, -1, 63, 20, 21, -1, 22, 61, 62, -1, 62, 21, 22, -1, 
+          23, 60, 61, -1, 61, 22, 23, -1, 24, 59, 60, -1, 60, 23, 24, -1, 
+          25, 58, 59, -1, 59, 24, 25, -1, 26, 57, 58, -1, 58, 25, 26, -1, 
+          27, 56, 57, -1, 57, 26, 27, -1, 28, 55, 56, -1, 56, 27, 28, -1, 
+          29, 54, 55, -1, 55, 28, 29, -1, 30, 53, 54, -1, 54, 29, 30, -1, 
+          31, 52, 53, -1, 53, 30, 31, -1, 32, 51, 52, -1, 52, 31, 32, -1, 
+          33, 50, 51, -1, 51, 32, 33, -1, 34, 49, 50, -1, 50, 33, 34, -1, 
+          35, 48, 49, -1, 49, 34, 35, -1, 36, 47, 48, -1, 48, 35, 36, -1, 
+          37, 46, 47, -1, 47, 36, 37, -1, 38, 45, 46, -1, 46, 37, 38, -1, 
+          39, 44, 45, -1, 45, 38, 39, -1, 40, 43, 44, -1, 44, 39, 40, -1, 
+          41, 42, 43, -1, 43, 40, 41, -1]
+        }
+    }
+  ]
+}
+DEF face10 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  #第三个圆柱面小头这边的外斜截面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face10-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face10-COORD Coordinate { point [
+          22 0 -115, 21.74 -3.358 -115, 20.97 -6.638 -115, 19.72 -9.762 -115, 
+          17.99 -12.66 -115, 15.85 -15.26 -115, 13.34 -17.5 -115, 
+          10.51 -19.33 -115, 7.436 -20.71 -115, 4.189 -21.6 -115, 
+          0.8427 -21.98 -115, -2.523 -21.85 -115, -5.83 -21.21 -115, 
+          -9 -20.08 -115, -11.96 -18.47 -115, -14.64 -16.42 -115, 
+          -16.97 -14 -115, -18.91 -11.24 -115, -20.41 -8.224 -115, 
+          -21.42 -5.013 -115, -21.94 -1.684 -115, -21.94 1.684 -115, 
+          -21.42 5.013 -115, -20.41 8.224 -115, -18.91 11.24 -115, 
+          -16.97 14 -115, -14.64 16.42 -115, -11.96 18.47 -115, 
+          -9 20.08 -115, -5.83 21.21 -115, -2.523 21.85 -115, 
+          0.8427 21.98 -115, 4.189 21.6 -115, 7.436 20.71 -115, 
+          10.51 19.33 -115, 13.34 17.5 -115, 15.85 15.26 -115, 
+          17.99 12.66 -115, 19.72 9.762 -115, 20.97 6.638 -115, 
+          21.74 3.358 -115, 22 0 -115, 22.5 0 -115.5, 22.24 3.435 -115.5, 
+          21.45 6.789 -115.5, 20.16 9.984 -115.5, 18.4 12.94 -115.5, 
+          16.21 15.6 -115.5, 13.64 17.89 -115.5, 10.75 19.77 -115.5, 
+          7.605 21.18 -115.5, 4.284 22.09 -115.5, 0.8618 22.48 -115.5, 
+          -2.58 22.35 -115.5, -5.962 21.7 -115.5, -9.204 20.53 -115.5, 
+          -12.23 18.89 -115.5, -14.97 16.8 -115.5, -17.36 14.32 -115.5, 
+          -19.34 11.5 -115.5, -20.87 8.411 -115.5, -21.91 5.127 -115.5, 
+          -22.43 1.722 -115.5, -22.43 -1.722 -115.5, -21.91 -5.127 -115.5, 
+          -20.87 -8.411 -115.5, -19.34 -11.5 -115.5, -17.36 -14.32 -115.5, 
+          -14.97 -16.8 -115.5, -12.23 -18.89 -115.5, -9.204 -20.53 -115.5, 
+          -5.962 -21.7 -115.5, -2.58 -22.35 -115.5, 0.8618 -22.48 -115.5, 
+          4.284 -22.09 -115.5, 7.605 -21.18 -115.5, 10.75 -19.77 -115.5, 
+          13.64 -17.89 -115.5, 16.21 -15.6 -115.5, 18.4 -12.94 -115.5, 
+          20.16 -9.984 -115.5, 21.45 -6.789 -115.5, 22.24 -3.435 -115.5, 
+          22.5 0 -115.5, 22 0 -115]
+        }
+        coordIndex [
+          1, 82, 83, -1, 83, 0, 1, -1, 2, 81, 82, -1, 82, 1, 2, -1, 
+          3, 80, 81, -1, 81, 2, 3, -1, 4, 79, 80, -1, 80, 3, 4, -1, 
+          5, 78, 79, -1, 79, 4, 5, -1, 6, 77, 78, -1, 78, 5, 6, -1, 
+          7, 76, 77, -1, 77, 6, 7, -1, 8, 75, 76, -1, 76, 7, 8, -1, 
+          9, 74, 75, -1, 75, 8, 9, -1, 10, 73, 74, -1, 74, 9, 10, -1, 
+          11, 72, 73, -1, 73, 10, 11, -1, 12, 71, 72, -1, 72, 11, 12, -1, 
+          13, 70, 71, -1, 71, 12, 13, -1, 14, 69, 70, -1, 70, 13, 14, -1, 
+          15, 68, 69, -1, 69, 14, 15, -1, 16, 67, 68, -1, 68, 15, 16, -1, 
+          17, 66, 67, -1, 67, 16, 17, -1, 18, 65, 66, -1, 66, 17, 18, -1, 
+          19, 64, 65, -1, 65, 18, 19, -1, 20, 63, 64, -1, 64, 19, 20, -1, 
+          21, 62, 63, -1, 63, 20, 21, -1, 22, 61, 62, -1, 62, 21, 22, -1, 
+          23, 60, 61, -1, 61, 22, 23, -1, 24, 59, 60, -1, 60, 23, 24, -1, 
+          25, 58, 59, -1, 59, 24, 25, -1, 26, 57, 58, -1, 58, 25, 26, -1, 
+          27, 56, 57, -1, 57, 26, 27, -1, 28, 55, 56, -1, 56, 27, 28, -1, 
+          29, 54, 55, -1, 55, 28, 29, -1, 30, 53, 54, -1, 54, 29, 30, -1, 
+          31, 52, 53, -1, 53, 30, 31, -1, 32, 51, 52, -1, 52, 31, 32, -1, 
+          33, 50, 51, -1, 51, 32, 33, -1, 34, 49, 50, -1, 50, 33, 34, -1, 
+          35, 48, 49, -1, 49, 34, 35, -1, 36, 47, 48, -1, 48, 35, 36, -1, 
+          37, 46, 47, -1, 47, 36, 37, -1, 38, 45, 46, -1, 46, 37, 38, -1, 
+          39, 44, 45, -1, 45, 38, 39, -1, 40, 43, 44, -1, 44, 39, 40, -1, 
+          41, 42, 43, -1, 43, 40, 41, -1]
+        }
+    }
+  ]
+}
+DEF face9 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  #第三个圆柱面小头这边的内截面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face9-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face9-COORD Coordinate { point [
+          22 0 -115, 21.74 3.358 -115, 20.97 6.638 -115, 19.72 9.762 -115, 
+          17.99 12.66 -115, 15.85 15.26 -115, 13.34 17.5 -115, 
+          10.51 19.33 -115, 7.436 20.71 -115, 4.189 21.6 -115, 
+          0.8427 21.98 -115, -2.523 21.85 -115, -5.83 21.21 -115, 
+          -9 20.08 -115, -11.96 18.47 -115, -14.64 16.42 -115, 
+          -16.97 14 -115, -18.91 11.24 -115, -20.41 8.224 -115, 
+          -21.42 5.013 -115, -21.94 1.684 -115, -21.94 -1.684 -115, 
+          -21.42 -5.013 -115, -20.41 -8.224 -115, -18.91 -11.24 -115, 
+          -16.97 -14 -115, -14.64 -16.42 -115, -11.96 -18.47 -115, 
+          -9 -20.08 -115, -5.83 -21.21 -115, -2.523 -21.85 -115, 
+          0.8427 -21.98 -115, 4.189 -21.6 -115, 7.436 -20.71 -115, 
+          10.51 -19.33 -115, 13.34 -17.5 -115, 15.85 -15.26 -115, 
+          17.99 -12.66 -115, 19.72 -9.762 -115, 20.97 -6.638 -115, 
+          21.74 -3.358 -115, 21 0 -115, 20.75 -3.206 -115, 20.02 -6.336 -115, 
+          18.82 -9.318 -115, 17.18 -12.08 -115, 15.13 -14.56 -115, 
+          12.73 -16.7 -115, 10.03 -18.45 -115, 7.098 -19.76 -115, 
+          3.998 -20.62 -115, 0.8044 -20.98 -115, -2.408 -20.86 -115, 
+          -5.565 -20.25 -115, -8.59 -19.16 -115, -11.41 -17.63 -115, 
+          -13.97 -15.68 -115, -16.2 -13.36 -115, -18.05 -10.73 -115, 
+          -19.48 -7.85 -115, -20.45 -4.785 -115, -20.94 -1.608 -115, 
+          -20.94 1.608 -115, -20.45 4.785 -115, -19.48 7.85 -115, 
+          -18.05 10.73 -115, -16.2 13.36 -115, -13.97 15.68 -115, 
+          -11.41 17.63 -115, -8.59 19.16 -115, -5.565 20.25 -115, 
+          -2.408 20.86 -115, 0.8044 20.98 -115, 3.998 20.62 -115, 
+          7.098 19.76 -115, 10.03 18.45 -115, 12.73 16.7 -115, 
+          15.13 14.56 -115, 17.18 12.08 -115, 18.82 9.318 -115, 
+          20.02 6.336 -115, 20.75 3.206 -115]
+        }
+        coordIndex [
+          27, 53, 54, -1, 27, 54, 55, -1, 27, 55, 26, -1, 26, 55, 56, -1, 
+          26, 56, 25, -1, 25, 56, 57, -1, 25, 57, 24, -1, 24, 57, 58, -1, 
+          24, 58, 23, -1, 23, 58, 59, -1, 23, 59, 22, -1, 22, 59, 60, -1, 
+          22, 60, 21, -1, 21, 60, 61, -1, 21, 61, 20, -1, 20, 61, 62, -1, 
+          20, 62, 19, -1, 19, 62, 63, -1, 19, 63, 64, -1, 19, 64, 18, -1, 
+          18, 64, 65, -1, 18, 65, 17, -1, 17, 65, 66, -1, 17, 66, 16, -1, 
+          16, 66, 67, -1, 16, 67, 15, -1, 15, 67, 68, -1, 15, 68, 14, -1, 
+          14, 68, 69, -1, 14, 69, 13, -1, 13, 69, 70, -1, 13, 70, 12, -1, 
+          12, 70, 71, -1, 12, 71, 11, -1, 11, 71, 72, -1, 11, 72, 73, -1, 
+          73, 74, 10, -1, 11, 73, 10, -1, 28, 29, 30, -1, 28, 30, 27, -1, 
+          27, 30, 53, -1, 53, 30, 31, -1, 53, 31, 52, -1, 52, 31, 51, -1, 
+          51, 31, 32, -1, 51, 32, 50, -1, 50, 32, 33, -1, 50, 33, 49, -1, 
+          49, 33, 34, -1, 49, 34, 48, -1, 48, 34, 35, -1, 48, 35, 47, -1, 
+          47, 35, 36, -1, 47, 36, 46, -1, 46, 36, 37, -1, 46, 37, 45, -1, 
+          45, 37, 38, -1, 45, 38, 44, -1, 44, 38, 39, -1, 44, 39, 43, -1, 
+          43, 39, 42, -1, 42, 39, 40, -1, 42, 40, 41, -1, 41, 40, 0, -1, 
+          41, 0, 81, -1, 81, 0, 1, -1, 81, 1, 80, -1, 80, 1, 2, -1, 
+          80, 2, 79, -1, 79, 2, 3, -1, 79, 3, 78, -1, 78, 3, 4, -1, 
+          78, 4, 77, -1, 77, 4, 5, -1, 77, 5, 76, -1, 76, 5, 75, -1, 
+          75, 5, 6, -1, 75, 6, 74, -1, 74, 7, 10, -1, 74, 6, 7, -1, 
+          10, 7, 9, -1, 9, 7, 8, -1]
+        }
+    }
+  ]
+}
+
+
+DEF face6 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.5 0.8 0.6  # 第二个圆柱面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face6-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face6-COORD Coordinate { point [
+          21 0 -115, 20.75 3.206 -115, 20.02 6.336 -115, 18.82 9.318 -115, 
+          17.18 12.08 -115, 15.13 14.56 -115, 12.73 16.7 -115, 
+          10.03 18.45 -115, 7.098 19.76 -115, 3.998 20.62 -115, 
+          0.8044 20.98 -115, -2.408 20.86 -115, -5.565 20.25 -115, 
+          -8.59 19.16 -115, -11.41 17.63 -115, -13.97 15.68 -115, 
+          -16.2 13.36 -115, -18.05 10.73 -115, -19.48 7.85 -115, 
+          -20.45 4.785 -115, -20.94 1.608 -115, -20.94 -1.608 -115, 
+          -20.45 -4.785 -115, -19.48 -7.85 -115, -18.05 -10.73 -115, 
+          -16.2 -13.36 -115, -13.97 -15.68 -115, -11.41 -17.63 -115, 
+          -8.59 -19.16 -115, -5.565 -20.25 -115, -2.408 -20.86 -115, 
+          0.8044 -20.98 -115, 3.998 -20.62 -115, 7.098 -19.76 -115, 
+          10.03 -18.45 -115, 12.73 -16.7 -115, 15.13 -14.56 -115, 
+          17.18 -12.08 -115, 18.82 -9.318 -115, 20.02 -6.336 -115, 
+          20.75 -3.206 -115, 21 0 -115, 21 0 -70, 20.75 -3.206 -70, 
+          20.02 -6.336 -70, 18.82 -9.318 -70, 17.18 -12.08 -70, 
+          15.13 -14.56 -70, 12.73 -16.7 -70, 10.03 -18.45 -70, 
+          7.098 -19.76 -70, 3.998 -20.62 -70, 0.8044 -20.98 -70, 
+          -2.408 -20.86 -70, -5.565 -20.25 -70, -8.59 -19.16 -70, 
+          -11.41 -17.63 -70, -13.97 -15.68 -70, -16.2 -13.36 -70, 
+          -18.05 -10.73 -70, -19.48 -7.85 -70, -20.45 -4.785 -70, 
+          -20.94 -1.608 -70, -20.94 1.608 -70, -20.45 4.785 -70, 
+          -19.48 7.85 -70, -18.05 10.73 -70, -16.2 13.36 -70, 
+          -13.97 15.68 -70, -11.41 17.63 -70, -8.59 19.16 -70, 
+          -5.565 20.25 -70, -2.408 20.86 -70, 0.8044 20.98 -70, 
+          3.998 20.62 -70, 7.098 19.76 -70, 10.03 18.45 -70, 
+          12.73 16.7 -70, 15.13 14.56 -70, 17.18 12.08 -70, 18.82 9.318 -70, 
+          20.02 6.336 -70, 20.75 3.206 -70, 21 0 -70, 21 0 -115]
+        }
+        coordIndex [
+          1, 82, 83, -1, 83, 0, 1, -1, 2, 81, 82, -1, 82, 1, 2, -1, 
+          3, 80, 81, -1, 81, 2, 3, -1, 4, 79, 80, -1, 80, 3, 4, -1, 
+          5, 78, 79, -1, 79, 4, 5, -1, 6, 77, 78, -1, 78, 5, 6, -1, 
+          7, 76, 77, -1, 77, 6, 7, -1, 8, 75, 76, -1, 76, 7, 8, -1, 
+          9, 74, 75, -1, 75, 8, 9, -1, 10, 73, 74, -1, 74, 9, 10, -1, 
+          11, 72, 73, -1, 73, 10, 11, -1, 12, 71, 72, -1, 72, 11, 12, -1, 
+          13, 70, 71, -1, 71, 12, 13, -1, 14, 69, 70, -1, 70, 13, 14, -1, 
+          15, 68, 69, -1, 69, 14, 15, -1, 16, 67, 68, -1, 68, 15, 16, -1, 
+          17, 66, 67, -1, 67, 16, 17, -1, 18, 65, 66, -1, 66, 17, 18, -1, 
+          19, 64, 65, -1, 65, 18, 19, -1, 20, 63, 64, -1, 64, 19, 20, -1, 
+          21, 62, 63, -1, 63, 20, 21, -1, 22, 61, 62, -1, 62, 21, 22, -1, 
+          23, 60, 61, -1, 61, 22, 23, -1, 24, 59, 60, -1, 60, 23, 24, -1, 
+          25, 58, 59, -1, 59, 24, 25, -1, 26, 57, 58, -1, 58, 25, 26, -1, 
+          27, 56, 57, -1, 57, 26, 27, -1, 28, 55, 56, -1, 56, 27, 28, -1, 
+          29, 54, 55, -1, 55, 28, 29, -1, 30, 53, 54, -1, 54, 29, 30, -1, 
+          31, 52, 53, -1, 53, 30, 31, -1, 32, 51, 52, -1, 52, 31, 32, -1, 
+          33, 50, 51, -1, 51, 32, 33, -1, 34, 49, 50, -1, 50, 33, 34, -1, 
+          35, 48, 49, -1, 49, 34, 35, -1, 36, 47, 48, -1, 48, 35, 36, -1, 
+          37, 46, 47, -1, 47, 36, 37, -1, 38, 45, 46, -1, 46, 37, 38, -1, 
+          39, 44, 45, -1, 45, 38, 39, -1, 40, 43, 44, -1, 44, 39, 40, -1, 
+          41, 42, 43, -1, 43, 40, 41, -1]
+        }
+    }
+  ]
+}
+
+
+DEF face1 Transform {
+  translation 0 0 0
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+         diffuseColor 0.3 0.3 0.3  #第二个圆柱面的截面
+          shininess 0.5
+          transparency 0
+        }
+      }
+      geometry DEF face1-FACES IndexedFaceSet {
+        ccw TRUE
+        solid TRUE
+        coord DEF face1-COORD Coordinate { point [
+          21 0 -70, 20.75 3.206 -70, 20.02 6.336 -70, 18.82 9.318 -70, 
+          17.18 12.08 -70, 15.13 14.56 -70, 12.73 16.7 -70, 10.03 18.45 -70, 
+          7.098 19.76 -70, 3.998 20.62 -70, 0.8044 20.98 -70, 
+          -2.408 20.86 -70, -5.565 20.25 -70, -8.59 19.16 -70, 
+          -11.41 17.63 -70, -13.97 15.68 -70, -16.2 13.36 -70, 
+          -18.05 10.73 -70, -19.48 7.85 -70, -20.45 4.785 -70, 
+          -20.94 1.608 -70, -20.94 -1.608 -70, -20.45 -4.785 -70, 
+          -19.48 -7.85 -70, -18.05 -10.73 -70, -16.2 -13.36 -70, 
+          -13.97 -15.68 -70, -11.41 -17.63 -70, -8.59 -19.16 -70, 
+          -5.565 -20.25 -70, -2.408 -20.86 -70, 0.8044 -20.98 -70, 
+          3.998 -20.62 -70, 7.098 -19.76 -70, 10.03 -18.45 -70, 
+          12.73 -16.7 -70, 15.13 -14.56 -70, 17.18 -12.08 -70, 
+          18.82 -9.318 -70, 20.02 -6.336 -70, 20.75 -3.206 -70, 
+          20 0 -70, 19.77 -3.053 -70, 19.07 -6.034 -70, 17.92 -8.874 -70, 
+          16.36 -11.51 -70, 14.41 -13.87 -70, 12.12 -15.91 -70, 
+          9.554 -17.57 -70, 6.76 -18.82 -70, 3.808 -19.63 -70, 
+          0.7661 -19.99 -70, -2.294 -19.87 -70, -5.3 -19.29 -70, 
+          -8.181 -18.25 -70, -10.87 -16.79 -70, -13.31 -14.93 -70, 
+          -15.43 -12.72 -70, -17.19 -10.22 -70, -18.55 -7.476 -70, 
+          -19.47 -4.557 -70, -19.94 -1.531 -70, -19.94 1.531 -70, 
+          -19.47 4.557 -70, -18.55 7.476 -70, -17.19 10.22 -70, 
+          -15.43 12.72 -70, -13.31 14.93 -70, -10.87 16.79 -70, 
+          -8.181 18.25 -70, -5.3 19.29 -70, -2.294 19.87 -70, 
+          0.7661 19.99 -70, 3.808 19.63 -70, 6.76 18.82 -70, 
+          9.554 17.57 -70, 12.12 15.91 -70, 14.41 13.87 -70, 
+          16.36 11.51 -70, 17.92 8.874 -70, 19.07 6.034 -70, 
+          19.77 3.053 -70]
+        }
+        coordIndex [
+          27, 53, 54, -1, 27, 54, 55, -1, 27, 55, 26, -1, 26, 55, 56, -1, 
+          26, 56, 25, -1, 25, 56, 57, -1, 25, 57, 24, -1, 24, 57, 58, -1, 
+          24, 58, 23, -1, 23, 58, 59, -1, 23, 59, 22, -1, 22, 59, 60, -1, 
+          22, 60, 21, -1, 21, 60, 61, -1, 21, 61, 20, -1, 20, 61, 62, -1, 
+          20, 62, 19, -1, 19, 62, 63, -1, 19, 63, 64, -1, 19, 64, 18, -1, 
+          18, 64, 65, -1, 18, 65, 17, -1, 17, 65, 66, -1, 17, 66, 16, -1, 
+          16, 66, 67, -1, 16, 67, 15, -1, 15, 67, 68, -1, 15, 68, 14, -1, 
+          14, 68, 69, -1, 14, 69, 13, -1, 13, 69, 70, -1, 13, 70, 12, -1, 
+          12, 70, 71, -1, 12, 71, 11, -1, 11, 71, 72, -1, 11, 72, 73, -1, 
+          73, 74, 10, -1, 11, 73, 10, -1, 28, 29, 30, -1, 28, 30, 27, -1, 
+          27, 30, 53, -1, 53, 30, 31, -1, 53, 31, 52, -1, 52, 31, 51, -1, 
+          51, 31, 32, -1, 51, 32, 50, -1, 50, 32, 33, -1, 50, 33, 49, -1, 
+          49, 33, 34, -1, 49, 34, 48, -1, 48, 34, 35, -1, 48, 35, 47, -1, 
+          47, 35, 36, -1, 47, 36, 46, -1, 46, 36, 37, -1, 46, 37, 45, -1, 
+          45, 37, 38, -1, 45, 38, 44, -1, 44, 38, 39, -1, 44, 39, 43, -1, 
+          43, 39, 42, -1, 42, 39, 40, -1, 42, 40, 41, -1, 41, 40, 0, -1, 
+          41, 0, 81, -1, 81, 0, 1, -1, 81, 1, 80, -1, 80, 1, 2, -1, 
+          80, 2, 79, -1, 79, 2, 3, -1, 79, 3, 78, -1, 78, 3, 4, -1, 
+          78, 4, 77, -1, 77, 4, 5, -1, 77, 5, 76, -1, 76, 5, 75, -1, 
+          75, 5, 6, -1, 75, 6, 74, -1, 74, 6, 10, -1, 10, 6, 7, -1, 
+          10, 7, 9, -1, 9, 7, 8, -1]
+        }
+    }
+  ]
+}
+
+]
+}

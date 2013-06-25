@@ -1,0 +1,10 @@
+Mercury Computer Systems: License request for OpenInventor 5.0
+Mercury Computer Systems: No internal unlock string specified.
+Mercury Computer Systems: Try local file ./password.dat
+Mercury Computer Systems: Envvar TGS_LICENSE_FILE not defined.
+Mercury Computer Systems: Envvar OIVHOME not defined.
+Mercury Computer Systems: Envvar TGSHOME not defined.
+Mercury Computer Systems: Got 1 license(s) from registry:
+License OpenInventor 6.0 1-JAN-0 0 68q3f9223611 "SDK-TBE-2011" 001143c43e32
+Mercury Computer Systems: Hostid is "001143c43e32"
+Mercury Computer Systems: License candidate (0): License OpenInventor 6.0 ...

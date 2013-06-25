@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: xmlread - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\xmlread\AccessPoints.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\xmlread\Group.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\xmlread\PartInfo.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\xmlread\point.cpp"
+"C:\Documents and Settings\Administrator\桌面\tinyxml_2_6_1\tinyxml\tinystr.cpp"
+"C:\Documents and Settings\Administrator\桌面\tinyxml_2_6_1\tinyxml\tinyxml.cpp"
+"C:\Documents and Settings\Administrator\桌面\tinyxml_2_6_1\tinyxml\tinyxmlerror.cpp"
+"C:\Documents and Settings\Administrator\桌面\tinyxml_2_6_1\tinyxml\tinyxmlparser.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\xmlread\xmlread.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/xmlread.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\xmlread\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /subsystem:console /incremental:yes /pdb:"Debug/xmlread.pdb" /debug /machine:I386 /out:"Debug/xmlread.exe" /pdbtype:sept 
+".\Debug\AccessPoints.obj"
+".\Debug\Group.obj"
+".\Debug\PartInfo.obj"
+".\Debug\point.obj"
+".\Debug\StdAfx.obj"
+".\Debug\tinystr.obj"
+".\Debug\tinyxml.obj"
+".\Debug\tinyxmlerror.obj"
+".\Debug\tinyxmlparser.obj"
+".\Debug\xmlread.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AccessPoints.cpp
+Group.cpp
+PartInfo.cpp
+point.cpp
+tinystr.cpp
+tinyxml.cpp
+tinyxmlerror.cpp
+tinyxmlparser.cpp
+xmlread.cpp
+c:\program files\microsoft visual studio\myprojects\xmlread\xmlread.cpp(106) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\myprojects\xmlread\xmlread.cpp(106) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::const_iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\myprojects\xmlread\xmlread.cpp(408) : warning C4390: ';' : empty controlled statement found; is this the intent?
+c:\program files\microsoft visual studio\myprojects\xmlread\xmlread.cpp(508) : warning C4786: 'reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,st' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\myprojects\xmlread\xmlread.cpp(508) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+Generating Code...
+c:\program files\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\list(136) : warning C4786: 'std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\list(140) : warning C4786: 'std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\list(153) : warning C4786: 'std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\iterator(29) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\iterator(37) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>::operator*' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\iterator(46) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>::operator++' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\iterator(31) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\iterator(34) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>::base' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\iterator(34) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+xmlread.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
